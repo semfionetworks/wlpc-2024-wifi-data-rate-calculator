@@ -1,0 +1,455 @@
+{
+  "client_devices": [
+    {
+      "manufacturer": "Apple",
+      "name": "iPhone 17",
+      "phy": "EHT",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Apple",
+      "name": "iPhone 15",
+      "phy": "HE",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Apple",
+      "name": "iPhone 13",
+      "phy": "HE",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Google",
+      "name": "Pixel 7",
+      "phy": "HE",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Google",
+      "name": "Pixel 8",
+      "phy": "EHT",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Intel",
+      "name": "BE200",
+      "phy": "EHT",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Intel",
+      "name": "AX200",
+      "phy": "HE",
+      "nss": 2
+    },
+    {
+      "manufacturer": "Zebra",
+      "name": "MC40",
+      "phy": "HT",
+      "nss": 1
+    },
+    {
+      "manufacturer": "Zebra",
+      "name": "MC9300",
+      "phy": "VHT",
+      "nss": 2
+    }
+  ],
+  "wifi_phys": [
+    {
+      "name": "HT",
+      "description": "802.11n - Wi-Fi 4",
+      "mcs_index": [
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+      ],
+      "max_nss": 4,
+      "ofdm": true,
+      "ofdm_channel_width": [20, 40],
+      "ofdma": false
+    },
+    {
+      "name": "VHT",
+      "description": "802.11ac - Wi-Fi 5",
+      "mcs_index": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "max_nss": 8,
+      "ofdm": true,
+      "ofdm_channel_width": [20, 40, 80, 160],
+      "ofdma": false
+    },
+    {
+      "name": "HE",
+      "description": "802.11ax - Wi-Fi 6/6e",
+      "mcs_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "max_nss": 8,
+      "ofdm": false,
+      "ofdma": true,
+      "ofdma_channel_width": [2, 4, 8, 20, 40, 80, 160]
+    },
+    {
+      "name": "EHT",
+      "description": "802.11be - Wi-Fi 7",
+      "mcs_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "max_nss": 16,
+      "ofdm": false,
+      "ofdma": true,
+      "ofdma_channel_width": [2, 4, 8, 20, 40, 80, 160, 320]
+    }
+  ],
+  "ofdm_data": {
+    "nsds": [
+      {
+        "channel_width": 20,
+        "nsd": 52
+      },
+      {
+        "channel_width": 40,
+        "nsd": 108
+      },
+      {
+        "channel_width": 80,
+        "nsd": 234
+      },
+      {
+        "channel_width": 160,
+        "nsd": 468
+      }
+    ],
+    "tdft": 3.2,
+    "tgi": [0.4, 0.8]
+  },
+  "ofdma_data": {
+    "nsdus": [
+      {
+        "channel_width": 2,
+        "nsdu": 24
+      },
+      {
+        "channel_width": 4,
+        "nsdu": 48
+      },
+      {
+        "channel_width": 8,
+        "nsdu": 102
+      },
+      {
+        "channel_width": 20,
+        "nsdu": 234
+      },
+      {
+        "channel_width": 40,
+        "nsdu": 468
+      },
+      {
+        "channel_width": 80,
+        "nsdu": 980
+      },
+      {
+        "channel_width": 160,
+        "nsdu": 1960
+      },
+      {
+        "channel_width": 320,
+        "nsdu": 3920
+      }
+    ],
+    "tdft": 12.8,
+    "tgi": [0.8, 1.2, 3.2]
+  },
+  "mcs_index_ht": [
+    {
+      "index": 0,
+      "nss": 1,
+      "modulation": "BPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 1,
+      "nss": 1,
+      "modulation": "QPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 2,
+      "nss": 1,
+      "modulation": "QPSK",
+      "coding": "3/4"
+    },
+    {
+      "index": 3,
+      "nss": 1,
+      "modulation": "16-QAM",
+      "coding": "1/2"
+    },
+    {
+      "index": 4,
+      "nss": 1,
+      "modulation": "16-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 5,
+      "nss": 1,
+      "modulation": "64-QAM",
+      "coding": "2/3"
+    },
+    {
+      "index": 6,
+      "nss": 1,
+      "modulation": "64-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 7,
+      "nss": 1,
+      "modulation": "64-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 8,
+      "nss": 2,
+      "modulation": "BPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 9,
+      "nss": 2,
+      "modulation": "QPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 10,
+      "nss": 2,
+      "modulation": "QPSK",
+      "coding": "3/4"
+    },
+    {
+      "index": 11,
+      "nss": 2,
+      "modulation": "16-QAM",
+      "coding": "1/2"
+    },
+    {
+      "index": 12,
+      "nss": 2,
+      "modulation": "16-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 13,
+      "nss": 2,
+      "modulation": "64-QAM",
+      "coding": "2/3"
+    },
+    {
+      "index": 14,
+      "nss": 1,
+      "modulation": "64-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 15,
+      "nss": 2,
+      "modulation": "64-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 16,
+      "nss": 3,
+      "modulation": "BPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 17,
+      "nss": 3,
+      "modulation": "QPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 18,
+      "nss": 3,
+      "modulation": "QPSK",
+      "coding": "3/4"
+    },
+    {
+      "index": 19,
+      "nss": 3,
+      "modulation": "16-QAM",
+      "coding": "1/2"
+    },
+    {
+      "index": 20,
+      "nss": 3,
+      "modulation": "16-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 21,
+      "nss": 3,
+      "modulation": "64-QAM",
+      "coding": "2/3"
+    },
+    {
+      "index": 22,
+      "nss": 3,
+      "modulation": "64-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 23,
+      "nss": 3,
+      "modulation": "64-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 24,
+      "nss": 4,
+      "modulation": "BPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 25,
+      "nss": 4,
+      "modulation": "QPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 26,
+      "nss": 4,
+      "modulation": "QPSK",
+      "coding": "3/4"
+    },
+    {
+      "index": 27,
+      "nss": 4,
+      "modulation": "16-QAM",
+      "coding": "1/2"
+    },
+    {
+      "index": 28,
+      "nss": 4,
+      "modulation": "16-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 29,
+      "nss": 4,
+      "modulation": "64-QAM",
+      "coding": "2/3"
+    },
+    {
+      "index": 30,
+      "nss": 4,
+      "modulation": "64-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 31,
+      "nss": 4,
+      "modulation": "64-QAM",
+      "coding": "5/6"
+    }
+  ],
+  "mcs_index": [
+    {
+      "index": 0,
+      "modulation": "BPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 1,
+      "modulation": "QPSK",
+      "coding": "1/2"
+    },
+    {
+      "index": 2,
+      "modulation": "QPSK",
+      "coding": "3/4"
+    },
+    {
+      "index": 3,
+      "modulation": "16-QAM",
+      "coding": "1/2"
+    },
+    {
+      "index": 4,
+      "modulation": "16-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 5,
+      "modulation": "64-QAM",
+      "coding": "2/3"
+    },
+    {
+      "index": 6,
+      "modulation": "64-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 7,
+      "modulation": "64-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 8,
+      "modulation": "256-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 9,
+      "modulation": "256-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 10,
+      "modulation": "1024-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 11,
+      "modulation": "1024-QAM",
+      "coding": "5/6"
+    },
+    {
+      "index": 12,
+      "modulation": "4096-QAM",
+      "coding": "3/4"
+    },
+    {
+      "index": 13,
+      "modulation": "4096-QAM",
+      "coding": "5/6"
+    }
+  ],
+  "modulations": [
+    {
+      "name": "BPSQ",
+      "nbpscs": 1
+    },
+    {
+      "name": "QPSQ",
+      "nbpscs": 2
+    },
+    {
+      "name": "16-QAM",
+      "nbpscs": 4
+    },
+    {
+      "name": "64-QAM",
+      "nbpscs": 6
+    },
+    {
+      "name": "256-QAM",
+      "nbpscs": 8
+    },
+    {
+      "name": "1024-QAM",
+      "nbpscs": 10
+    },
+    {
+      "name": "4096-QAM",
+      "nbpscs": 12
+    }
+  ]
+}
