@@ -81,6 +81,7 @@ wifi_phys:
   - name: VHT
     description: 802.11ac - Wi-Fi 5
     mcs_index:
+      - 0
       - 1
       - 2
       - 3
@@ -101,6 +102,7 @@ wifi_phys:
   - name: HE
     description: 802.11ax - Wi-Fi 6/6e
     mcs_index:
+      - 0
       - 1
       - 2
       - 3
@@ -126,6 +128,7 @@ wifi_phys:
   - name: EHT
     description: 802.11be - Wi-Fi 7
     mcs_index:
+      - 0
       - 1
       - 2
       - 3
