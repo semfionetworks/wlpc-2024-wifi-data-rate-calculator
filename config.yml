@@ -364,9 +364,9 @@ mcs_index:
     modulation: 4096-QAM
     coding: 5/6
 modulations:
-  - name: BPSQ
+  - name: BPSK
     nbpscs: 1
-  - name: QPSQ
+  - name: QPSK
     nbpscs: 2
   - name: 16-QAM
     nbpscs: 4

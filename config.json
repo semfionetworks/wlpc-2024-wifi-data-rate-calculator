@@ -424,11 +424,11 @@
   ],
   "modulations": [
     {
-      "name": "BPSQ",
+      "name": "BPSK",
       "nbpscs": 1
     },
     {
-      "name": "QPSQ",
+      "name": "QPSK",
       "nbpscs": 2
     },
     {

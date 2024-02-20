@@ -105,9 +105,10 @@ def get_nss_list(client_device_details: dict) -> list:
     return nss_list
 
 
-def get_tdft_tgi_rate(
+def get_tdft_tgi_subcarrier_data_rate(
     client_device_details: dict,
-    configs: dict
+    configs: dict,
+    channel_width_selection : str
 ):
     type_calc = None
     for phy in configs["wifi_phys"]:
@@ -120,11 +121,38 @@ def get_tdft_tgi_rate(
 
     tdft = configs[f'{type_calc}_data']['tdft']
     tgi = configs[f'{type_calc}_data']['tgi']
-    return {'tdft' : tdft, 'tgi' : tgi}
+    channel_width_number = int(channel_width_selection.replace("MHz", "").replace(" ", ""))
+    number_data_subcarrier = 0
+    if type_calc == "ofdm":
+        for nsds_dict in configs[f'{type_calc}_data']["nsds"]:
+            if nsds_dict["channel_width"] == channel_width_number:
+                number_data_subcarrier = nsds_dict["nsd"]
+                break
+
+    if type_calc == "ofdma":
+        for nsds_dict in configs[f'{type_calc}_data']["nsdus"]:
+            if nsds_dict["channel_width"] == channel_width_number:
+                number_data_subcarrier = nsds_dict["nsdu"]
+                break
+
+    return {'tdft' : tdft, 'tgi' : tgi, "number_data_subcarrier" : number_data_subcarrier}
 
 
-def compute_data_rates():
-    pass
+def compute_data_rates(tdft_tgi_subcarrier_data_rate, df):
+    for tgi_rate in tdft_tgi_subcarrier_data_rate["tgi"]:
+        df[f'TGI {tgi_rate}'] = \
+            tdft_tgi_subcarrier_data_rate["number_data_subcarrier"] * df['Spatial Streams'] * df['coding_numeric'] * df["nbpcs"]/\
+            (tgi_rate + tdft_tgi_subcarrier_data_rate['tdft'])
+    return df
+
+
+def get_nbpcs_for_modulations(modulations, configs):
+    nbpcs_list = []
+    for modulation in modulations:
+        for config_modulation in configs["modulations"]:
+            if modulation == config_modulation["name"]:
+                nbpcs_list.append(config_modulation["nbpscs"])
+    return nbpcs_list
 
 
 # Display the MCS Table
@@ -133,16 +161,22 @@ phy_list = get_phy_list(client_device_details,  mcs_indexes)
 modulations = get_modulations(client_device_details, mcs_indexes, configs)
 coding_rates = get_coding_rates(client_device_details, mcs_indexes, configs)
 nss_list = get_nss_list(client_device_details)
-get_tdft_tgi_rate = get_tdft_tgi_rate(client_device_details, configs)
+tdft_tgi_subcarrier_data_rate = get_tdft_tgi_subcarrier_data_rate(client_device_details, configs, channel_width_selection)
+nbpcs_list = get_nbpcs_for_modulations(modulations, configs)
 df = pd.DataFrame(
     {
         'PHY': phy_list,
         'MCS Index': mcs_indexes,
+        'Nsd' : tdft_tgi_subcarrier_data_rate['number_data_subcarrier'],
         'Modulation': modulations,
         'Coding': coding_rates,
-        'Spatial Streams': nss_list
+        'Spatial Streams': nss_list,
+        'coding_numeric': [eval(x) for x in coding_rates],
+        'nbpcs' : nbpcs_list
     }
 )
+df = compute_data_rates(tdft_tgi_subcarrier_data_rate, df)
+df.drop('coding_numeric', axis = 1, inplace = True)
 
 # df_styled = df.style.applymap(lambda x: 'background-color: red' if x == 'HE' else '', subset=['PHY'])
 # df_styled = df.style.set_properties(**{'text-align': 'center'})
