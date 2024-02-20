@@ -23,7 +23,8 @@ with col1:
     client_device_option = st.selectbox(
         'Which device do you want to calculate data rates for?',
         options,
-        key='client_device_option'
+        key='client_device_option',
+        index = None
     )
 
     # Get client details
@@ -37,7 +38,8 @@ with col2:
     channel_width_selection = st.selectbox(
         'Channel Width',
         ['20 MHz', '40 MHz', '80 MHz', '160 MHz', '320 MHz'],
-        key='channel_width_selection'
+        key='channel_width_selection',
+        index = None
     )
 
 def get_mcs_indexes(
@@ -141,8 +143,8 @@ def get_tdft_tgi_subcarrier_data_rate(
 def compute_data_rates(tdft_tgi_subcarrier_data_rate, df):
     for tgi_rate in tdft_tgi_subcarrier_data_rate["tgi"]:
         df[f'TGI {tgi_rate}'] = \
-            tdft_tgi_subcarrier_data_rate["number_data_subcarrier"] * df['Spatial Streams'] * df['coding_numeric'] * df["nbpcs"]/\
-            (tgi_rate + tdft_tgi_subcarrier_data_rate['tdft'])
+            round(tdft_tgi_subcarrier_data_rate["number_data_subcarrier"] * df['Spatial Streams'] * df['coding_numeric'] * df["nbpcs"]/\
+            (tgi_rate + tdft_tgi_subcarrier_data_rate['tdft']), 1)
     return df
 
 
@@ -156,44 +158,47 @@ def get_nbpcs_for_modulations(modulations, configs):
 
 
 # Display the MCS Table
-mcs_indexes = get_mcs_indexes(client_device_details, configs['wifi_phys'])
-phy_list = get_phy_list(client_device_details,  mcs_indexes)
-modulations = get_modulations(client_device_details, mcs_indexes, configs)
-coding_rates = get_coding_rates(client_device_details, mcs_indexes, configs)
-nss_list = get_nss_list(client_device_details)
-tdft_tgi_subcarrier_data_rate = get_tdft_tgi_subcarrier_data_rate(client_device_details, configs, channel_width_selection)
-nbpcs_list = get_nbpcs_for_modulations(modulations, configs)
-df = pd.DataFrame(
-    {
-        'PHY': phy_list,
-        'MCS Index': mcs_indexes,
-        'Nsd' : tdft_tgi_subcarrier_data_rate['number_data_subcarrier'],
-        'Modulation': modulations,
-        'Coding': coding_rates,
-        'Spatial Streams': nss_list,
-        'coding_numeric': [eval(x) for x in coding_rates],
-        'nbpcs' : nbpcs_list
-    }
-)
-df = compute_data_rates(tdft_tgi_subcarrier_data_rate, df)
-df.drop('coding_numeric', axis = 1, inplace = True)
-
-# df_styled = df.style.applymap(lambda x: 'background-color: red' if x == 'HE' else '', subset=['PHY'])
-# df_styled = df.style.set_properties(**{'text-align': 'center'})
-
-
-st.toast(f'New data rates calculated for {client_device_option} for a {channel_width_selection} wide channel.')
-
-with stylable_container(
-    key='mcs_table',
-    css_styles=''''
-        table {
-            border-collapse: collapse;
+if client_device_details != {} and channel_width_selection is not None:
+    mcs_indexes = get_mcs_indexes(client_device_details, configs['wifi_phys'])
+    phy_list = get_phy_list(client_device_details,  mcs_indexes)
+    modulations = get_modulations(client_device_details, mcs_indexes, configs)
+    coding_rates = get_coding_rates(client_device_details, mcs_indexes, configs)
+    nss_list = get_nss_list(client_device_details)
+    tdft_tgi_subcarrier_data_rate = get_tdft_tgi_subcarrier_data_rate(client_device_details, configs, channel_width_selection)
+    nbpcs_list = get_nbpcs_for_modulations(modulations, configs)
+    df = pd.DataFrame(
+        {
+            'PHY': phy_list,
+            'MCS Index': mcs_indexes,
+            'Nsd' : tdft_tgi_subcarrier_data_rate['number_data_subcarrier'],
+            'Modulation': modulations,
+            'Coding': coding_rates,
+            'Spatial Streams': nss_list,
+            'coding_numeric': [eval(x) for x in coding_rates],
+            'nbpcs' : nbpcs_list
         }
+    )
+    df = compute_data_rates(tdft_tgi_subcarrier_data_rate, df)
+    df.drop('coding_numeric', axis = 1, inplace = True)
+    df.drop('Nsd', axis = 1, inplace = True)
+    df.drop('nbpcs', axis = 1, inplace = True)
 
-        th, td {
-          text-align: center;
-        }
-    '''
-):
-    st.write(df.to_html(index=False), unsafe_allow_html=True)
+    # df_styled = df.style.applymap(lambda x: 'background-color: red' if x == 'HE' else '', subset=['PHY'])
+    # df_styled = df.style.set_properties(**{'text-align': 'center'})
+
+
+    st.toast(f'New data rates calculated for {client_device_option} for a {channel_width_selection} wide channel.')
+
+    with stylable_container(
+        key='mcs_table',
+        css_styles=''''
+            table {
+                border-collapse: collapse;
+            }
+    
+            th, td {
+              text-align: center;
+            }
+        '''
+    ):
+        st.write(df.to_html(index=False), unsafe_allow_html=True)
