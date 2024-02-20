@@ -104,12 +104,36 @@ def get_nss_list(client_device_details: dict) -> list:
                 nss_list.append(i)
     return nss_list
 
+
+def get_tdft_tgi_rate(
+    client_device_details: dict,
+    configs: dict
+):
+    type_calc = None
+    for phy in configs["wifi_phys"]:
+        if phy["name"] == client_device_details['phy']:
+            if phy["ofdm"]:
+                type_calc = "ofdm"
+            if phy["ofdma"]:
+                type_calc = "ofdma"
+            break
+
+    tdft = configs[f'{type_calc}_data']['tdft']
+    tgi = configs[f'{type_calc}_data']['tgi']
+    return {'tdft' : tdft, 'tgi' : tgi}
+
+
+def compute_data_rates():
+    pass
+
+
 # Display the MCS Table
 mcs_indexes = get_mcs_indexes(client_device_details, configs['wifi_phys'])
 phy_list = get_phy_list(client_device_details,  mcs_indexes)
 modulations = get_modulations(client_device_details, mcs_indexes, configs)
 coding_rates = get_coding_rates(client_device_details, mcs_indexes, configs)
 nss_list = get_nss_list(client_device_details)
+get_tdft_tgi_rate = get_tdft_tgi_rate(client_device_details, configs)
 df = pd.DataFrame(
     {
         'PHY': phy_list,
