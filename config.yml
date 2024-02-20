@@ -1,7 +1,7 @@
 ---
 client_devices:
   - manufacturer: Apple
-    name: iPhone 17
+    name: iPhone 16
     phy: EHT
     nss: 2
   - manufacturer: Apple
@@ -12,6 +12,14 @@ client_devices:
     name: iPhone 13
     phy: HE
     nss: 2
+  - manufacturer: Apple
+    name: iPhone SE
+    phy: VHT
+    nss: 1
+  - manufacturer: Apple
+    name: iPhone SE 2
+    phy: HE
+    nss: 2
   - manufacturer: Google
     name: Pixel 7
     phy: HE
@@ -19,6 +27,26 @@ client_devices:
   - manufacturer: Google
     name: Pixel 8
     phy: EHT
+    nss: 2
+  - manufacturer: Apple
+    name: iPad Pro
+    phy: HE
+    nss: 2
+  - manufacturer: Apple
+    name: Macbook Pro M1/2/3
+    phy: HE
+    nss: 2
+  - manufacturer: Apple
+    name: Macbook Air
+    phy: HE
+    nss: 2
+  - manufacturer: Apple
+    name: Watch
+    phy: HT
+    nss: 1
+  - manufacturer: Samsung
+    name: Galaxy A
+    phy: HE
     nss: 2
   - manufacturer: Intel
     name: BE200
@@ -33,7 +61,27 @@ client_devices:
     phy: HT
     nss: 1
   - manufacturer: Zebra
+    name: TC52
+    phy: VHT
+    nss: 2
+  - manufacturer: Zebra
+    name: TC57
+    phy: VHT
+    nss: 2
+  - manufacturer: Zebra
     name: MC9300
+    phy: VHT
+    nss: 2
+  - manufacturer: Zebra
+    name: MC3200
+    phy: HT
+    nss: 1
+  - manufacturer: Roku
+    name: Roku3
+    phy: HT
+    nss: 2
+  - manufacturer: Roku
+    name: Roku4
     phy: VHT
     nss: 2
 wifi_phys:
