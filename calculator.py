@@ -183,11 +183,9 @@ if client_device_details != {} and channel_width_selection is not None:
     df.drop('Nsd', axis = 1, inplace = True)
     df.drop('nbpcs', axis = 1, inplace = True)
 
-    # df_styled = df.style.applymap(lambda x: 'background-color: red' if x == 'HE' else '', subset=['PHY'])
-    # df_styled = df.style.set_properties(**{'text-align': 'center'})
-
-
     st.toast(f'New data rates calculated for {client_device_option} for a {channel_width_selection} wide channel.')
+
+
 
     with stylable_container(
         key='mcs_table',
@@ -195,10 +193,26 @@ if client_device_details != {} and channel_width_selection is not None:
             table {
                 border-collapse: collapse;
             }
-    
+
             th, td {
               text-align: center;
             }
         '''
     ):
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            nss_filter = st.multiselect(
+                'Number of Spatial Streams',
+                [1,2]
+            )
+        with col2:
+            mcs_index_filter = st.multiselect(
+                'MCS Index',
+                [1,2,3,4,5,6,7,8,9,10]
+            )
+        with col3:
+            guard_interval_filter = st.multiselect(
+                'Guard Interval',
+                [0.8, 1.2, 3.2]
+            )
         st.write(df.to_html(index=False), unsafe_allow_html=True)
