@@ -156,6 +156,17 @@ def get_nbpcs_for_modulations(modulations, configs):
                 nbpcs_list.append(config_modulation["nbpscs"])
     return nbpcs_list
 
+def get_mcs_list(client_device_details, configs) -> list:
+    mcs_list = []
+    if client_device_details['phy'] == 'HT':
+        mcs_list = get_mcs_indexes(client_device_details, configs['wifi_phys'])
+    elif client_device_details['phy'] == 'VHT':
+        mcs_list = [mcs for mcs in range(0,10)]
+    elif client_device_details['phy'] == 'HE':
+        mcs_list = [mcs for mcs in range(0,12)]
+    elif client_device_details['phy'] == 'EHT':
+        mcs_list = [mcs for mcs in range(0,14)]
+    return mcs_list
 
 # Display the MCS Table
 if client_device_details != {} and channel_width_selection is not None:
@@ -199,20 +210,25 @@ if client_device_details != {} and channel_width_selection is not None:
             }
         '''
     ):
-        col1, col2, col3, col4 = st.columns(4)
-        with col1:
+        with col2:
+            list_nss = [nss for nss in range(1 ,client_device_details['nss'] + 1)]
             nss_filter = st.multiselect(
                 'Number of Spatial Streams',
-                [1,2]
+                list_nss,
+                default=list_nss
             )
-        with col2:
-            mcs_index_filter = st.multiselect(
-                'MCS Index',
-                [1,2,3,4,5,6,7,8,9,10]
-            )
-        with col3:
+            gi_list = [0.8, 1.2, 3.2] if client_device_details['phy'] in ['HE', 'EHT'] else [0.4, 0.8]
             guard_interval_filter = st.multiselect(
                 'Guard Interval',
-                [0.8, 1.2, 3.2]
+                gi_list,
+                default=gi_list
             )
-        st.write(df.to_html(index=False), unsafe_allow_html=True)
+            list_mcs = get_mcs_list(client_device_details, configs)
+            mcs_index_filter = st.multiselect(
+                'MCS Index',
+                list_mcs,
+                default=list_mcs
+            )
+
+        with col1:
+            st.write(df.to_html(index=False), unsafe_allow_html=True)
