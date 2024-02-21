@@ -35,12 +35,13 @@ with col1:
 
 with col2:
     # Channel Width Selection
-    channel_width_selection = st.selectbox(
-        'Channel Width',
-        ['20 MHz', '40 MHz', '80 MHz', '160 MHz', '320 MHz'],
-        key='channel_width_selection',
-        index = None
-    )
+    if client_device_option:
+        channel_width_selection = st.selectbox(
+            'Channel Width',
+            ['20 MHz', '40 MHz', '80 MHz', '160 MHz', '320 MHz'],
+            key='channel_width_selection',
+            index = None
+        )
 
 def get_mcs_indexes(
     client_device_details: dict,
@@ -156,6 +157,17 @@ def get_nbpcs_for_modulations(modulations, configs):
                 nbpcs_list.append(config_modulation["nbpscs"])
     return nbpcs_list
 
+def get_mcs_list(client_device_details, configs) -> list:
+    mcs_list = []
+    if client_device_details['phy'] == 'HT':
+        mcs_list = get_mcs_indexes(client_device_details, configs['wifi_phys'])
+    elif client_device_details['phy'] == 'VHT':
+        mcs_list = [mcs for mcs in range(0,10)]
+    elif client_device_details['phy'] == 'HE':
+        mcs_list = [mcs for mcs in range(0,12)]
+    elif client_device_details['phy'] == 'EHT':
+        mcs_list = [mcs for mcs in range(0,14)]
+    return mcs_list
 
 # Display the MCS Table
 if client_device_details != {} and channel_width_selection is not None:
@@ -183,11 +195,9 @@ if client_device_details != {} and channel_width_selection is not None:
     df.drop('Nsd', axis = 1, inplace = True)
     df.drop('nbpcs', axis = 1, inplace = True)
 
-    # df_styled = df.style.applymap(lambda x: 'background-color: red' if x == 'HE' else '', subset=['PHY'])
-    # df_styled = df.style.set_properties(**{'text-align': 'center'})
-
-
     st.toast(f'New data rates calculated for {client_device_option} for a {channel_width_selection} wide channel.')
+
+
 
     with stylable_container(
         key='mcs_table',
@@ -195,10 +205,31 @@ if client_device_details != {} and channel_width_selection is not None:
             table {
                 border-collapse: collapse;
             }
-    
+
             th, td {
               text-align: center;
             }
         '''
     ):
-        st.write(df.to_html(index=False), unsafe_allow_html=True)
+        with col2:
+            list_nss = [nss for nss in range(1 ,client_device_details['nss'] + 1)]
+            nss_filter = st.multiselect(
+                'Number of Spatial Streams',
+                list_nss,
+                default=list_nss
+            )
+            gi_list = [0.8, 1.2, 3.2] if client_device_details['phy'] in ['HE', 'EHT'] else [0.4, 0.8]
+            guard_interval_filter = st.multiselect(
+                'Guard Interval',
+                gi_list,
+                default=gi_list
+            )
+            list_mcs = get_mcs_list(client_device_details, configs)
+            mcs_index_filter = st.multiselect(
+                'MCS Index',
+                list_mcs,
+                default=list_mcs
+            )
+
+        with col1:
+            st.write(df.to_html(index=False), unsafe_allow_html=True)
