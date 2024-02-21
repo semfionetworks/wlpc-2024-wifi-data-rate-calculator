@@ -35,12 +35,13 @@ with col1:
 
 with col2:
     # Channel Width Selection
-    channel_width_selection = st.selectbox(
-        'Channel Width',
-        ['20 MHz', '40 MHz', '80 MHz', '160 MHz', '320 MHz'],
-        key='channel_width_selection',
-        index = None
-    )
+    if client_device_option:
+        channel_width_selection = st.selectbox(
+            'Channel Width',
+            ['20 MHz', '40 MHz', '80 MHz', '160 MHz', '320 MHz'],
+            key='channel_width_selection',
+            index = None
+        )
 
 def get_mcs_indexes(
     client_device_details: dict,
