@@ -1,0 +1,282 @@
+Device,36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,144,149,153,157,161,165,SS,.11,MU-MIMO,.11v,Link,Region,Version,Max Tx,OWE,SAE,.11w,Cap. Chan.,Notes
+Acer Chromebook R13,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,ChromeOS 76.0.3809.38 beta 32,18,,,,140,Interesting channel-support IEs
+Amazon Echo,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,n,,N,PCAP,US,,11,,,,36,
+Amazon Echo Dot,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,15,,,,44,
+Amazon Fire Phone,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,1,ac,,Y,PCAP,US,,30,,,,149,Unlocked
+Amazon Fire TV,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,,7,,,,52,
+Amazon Kindle Fire HD,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,3rd Gen,13,,,,153,
+Amazon Kindle Fire HD-8,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,6th Gen-5.3.2.0,,,,,153,
+Amazon Kindle Fire HD-8,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,1,n,,,,EU,6th Gen-5.6.0.1,,,,,48,
+Amazon Kindle Fire 5th Gen,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,N,PCAP,EU,,,,,,,
+Apple TV 3rd Gen,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,,PCAP,US,,,,,,,Need a pcap for this device
+Apple TV 4th Gen,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,19,,,,60,
+Apple TV 4K,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,MP7P2X/A,21,,,,100,
+Apple Watch Series 4,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,Y,PCAP,EU,,15,,,,1,2.4GHz only
+ASCOM i62,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,N,PCAP,EU,,10,,,,100,
+ASUS USB-AC68,,,,,,,,,,,,,,,,,,,,,,,,,,3,ac,N,Y,PCAP,US,,,,,,100,Doesnt report Supported Channels
+Asus PCE-AC88,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,4,ac,Y,,PCAP,US,Windows7,,,,,149,https://www.asus.com/Networking/PCE-AC88/
+Asus USB-AC56,,,,,,,,,,,,,,,,,,,,,,,,,,2,ac,N,N,PCAP,EU,,,,,,44,Doesnt report Supported Channels
+Blackberry Key One,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,Y,N,PCAP,US,BBB100-1,17,,,Y,,
+Blackberry Passport,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,Y,,US,,,,,,,
+Centrino7260AC,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,Y,Y,Y,Y,Y,2,ac,,,PCAP,EU,Windows,15,,,,100,Measured in EU domain. Asso. Req. still advertising support for non-EU channels.
+Chromebook - Asus C202SA,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,,US,C202SA,22,,,,52,
+Chromebook - Acer C7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,C710-2847,20,,,,36,
+Chromebook - Lenovo 11e,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,,22,,,,112,
+Chromecast 2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y*,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,,20,,,,36,"Advertised 144 as not supported, though captures from @timcapalli do show 144 supported. "
+Chromecast Audio,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,,20,,,,?,
+Cisco 8821,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,CP-8821,,,,,,Code ver: sip8821.11-0-3ES8-5
+Cisco 8861,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,,,,,,100,
+Cisco CP-840S,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,N,PCAP,US,,24,,,Y,36,
+Clover POS,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,US,,17,,,Y,36,
+ComFast CF-912AC,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,N,PCAP,EU,,21,,,,40,
+ComFast CF-917 RTL8814,,,,,,,,,,,,,,,,,,,,,,,,,,3,ac,N,Y,,APAC,AU-CF-917,,,,,149,
+Dell Inspiron 15 5568,,,,,,,,,,,,,,,,,,,,,,,,,,1,ac,N,Y,PCAP,US,,,,,,149,Does not advertise chan. support
+Dell latitude 3150,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,n,,Y,PCAP,US,,15,,,,161,
+Dell latitude E5470,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,Y,PCAP,EU,Intel(R) Dual Band Wireless-AC 8260,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell latitude 5480,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,Y,PCAP,EU,Intel(R) Dual Band Wireless-AC 8265,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell latitude E5270,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,?,N,PCAP,EU,Dell Wirelless 1820 802.11ac,25,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell latitude E5450,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,N,PCAP,EU,Intel(R) Dual Band Wireless-AC 7265,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell Latitude 5440,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,N,PCAP,EU,Intel(R) Dual Band Wireless-AC 7260,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell latitude 7250,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,Y,PCAP,EU,Intel(R) Dual Band Wireless-AC 7265,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell Precision 7510,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,N,PCAP,EU,Intel(R) Dual Band Wireless-AC 8260,11,,,,36,Capture in .11n BSS. Can't discern MU capability
+Dell Venue 8,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,,PCAP,US,6/18/1921,,,,,48,
+Dell Chromebook 11,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,3120,22,,,,,
+Dell XPS 15 7590,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,N,Y,PCAP,US,7590,14,,,Y,36,
+DirecTV C41W-500,?,?,?,?,?,?,?,?,?,?,?,Y,?,?,?,?,?,?,?,?,?,?,?,?,?,4,n,,,PCAP,,C41W-500,,,,,,Doesn't advertise channel support
+EcoBee 3,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,N,,PCAP,US,,,,,,,2.4GHz only
+Edimax AC1200 USB,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,2,ac,N,,PCAP,US,,,,,,153,Does not advertise it's supported channels
+Edimax EW7833UAC,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,3,ac,N,N,PCAP,EMEA,,,,,,40,Does not advertise it's supported channels
+Netscout Aircheck G2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,3,ac,N,N,PCAP,EMEA,,,,,,44,
+Google Chromecast Ultra,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,EU,,20,,,,36,
+Google Home,?,?,?,?,?,?,?,?,?,?,?,?,?,?,Y,?,?,?,?,?,?,?,?,?,?,1,ac,N,,PCAP,US,Gen 1,,,,,124,Does not advertise it's supported channels
+Google Home Mini,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,EU,,20,,,,36,
+Google Home Hub,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,APAC,H1A,,,,,52,
+Google Nest Mini,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,Y,N,PCAP,EU,,20,,,,36,
+Google Pixel,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,Sailfish,30,,,,161,802.11k & v supported
+Google Pixel 2 XL,?,?,?,?,?,?,?,Y,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,2,ac,Y,Y,PCAP,US,,,,,,64,Does not advertise channel support
+Google Pixel 3XL,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,,22,,,,36,
+Google Pixel 3A XL,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,Android 9.0,22,,,,100,
+Google Pixel 4,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,2,ac,N,,PCAP,US,,,,,,36,
+Google Pixel 4 XL,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,2,ac,Y,Y,PCAP,EMEA,Android 10,23,,,,36,
+Google Stadia,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,,16,,,,36,
+HP EliteBook Folio,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,9470m,15,,,,36,
+HP Pavilion 15 cs3153cl,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,15,,,,157,
+HP zBook 15inch,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,10,,,,36,
+Chromebook HP13G1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,ChromeOS 77.0.3849.0,22,,,,140,
+HTC One,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,?,,,,,PCAP,US,,,,,,,Need a pcap for this device
+HTC One(M8),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,,,PCAP,US,,17,,,,36,Does not advertise RSN capabilities. Does support .11k
+Huawei Honor 6A,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,Y,PCAP,EU,,20,,,Y,,
+Huawei Honor 8,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,ac,N,Y,PCAP,EU,,,,,,,
+Huawei Honor 9,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,ac,,Y,PCAP,EU,,19,,,,44,
+Huawei P20 Light,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,n,,N,PCAP,EU,,23,,,,44,
+Huwei P20 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,16,,,,36,
+Huawei P9 Plu,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,,APAC,,,,,Y,149,
+Huawei P30 Lite,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,,23,,,,40,
+Huawei P30 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,23,,,,40,
+Huawei P40 ANA-NX9,,,,,Y,Y,Y,Y,/,/,/,/,/,/,/,/,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,RU,,23,,,Y,36,
+ICOM IP100H,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,n,,Y,PCAP,EU,,20,,,,60,
+Intel AX200NGW,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,Y,N,PCAP,US,,22,,,,1,
+Intel 6235,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,15,,,,153,
+Intel 7265,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,3.16.0-49-generic,22,,,,36,Linux OS
+Intel 7260,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,3.16.0-49-generic,22,,,,36,Linux OS
+Intel 6300-Ultimate,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,3,n,,,PCAP,US,Windows10,15,,,,149,
+Intel 8265,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,Windows7,15,,,,108,
+iMac 5K,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,,,PCAP,US,,,,,,36,Advertises max Tx of 224 dBm. Does not advertise RSN Capabilities
+iMac (Mid 2007),Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,OSX 10.11.3,15,,,,48,
+iMac (Mid 2011),,,,,,,,,,,,,,,,,,,,,,,,,,3,n,,,PCAP,US,10.11.4,,,,,,Does not advertise channel support
+iPad2 (Retina),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,n,,,PCAP,EU,1/7/1900,25,,,,100,
+iPad2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,16,,,,153,
+iPad 3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,24,,,,36,Does not advertise RSN Capabilities
+iPad 4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,19,,,,124,
+iPad Air,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,,,,,36,Advertises max Tx of 230 dBm. Does not advertise RSN capabilities
+iPad Air 2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,,PCAP,US,,,,,,64,"Association was on .11n AP, but it's .11ac client. Therefore, can't tell if it's MU-MIMO."
+iPad Mini 1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,iOs 9.3.1,24,,,,64,
+iPad Mini 2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,,,,,PCAP,US,,,,,,,
+iPad Mini 4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,19,,,,36,
+iPad Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,Y,PCAP,US,,,,,,157,Advertises max Tx of 224 dBm
+iPad Pro 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,,,PCAP,EU,,18,,,,,Captured on .11n. Can't tell if it's VHT capabilities
+iPad Pro 10,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,20,,,,100,
+iPad 9 (2017),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,,PCAP,EU,iOS 9.7,19,,,,36,
+iPad 6th Gen,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,APAC,A1893,19,,Y,Y,100,
+iPhone 5,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,\,n,,,PCAP,EU,,22,,,,108,
+iPhone 5c,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,US,iOS 8.2,24,,,,64,See .11v notes below.
+iPhone 5s,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,US,,21,,,,48,See .11v notes below.
+iPhone 5s,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,US,,22,,,,149,See .11v notes below.
+iPhone 6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,,18,,,,149,Does not advertise RSN capabilites & See .11v notes below.
+iPhone 6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,EU,,,,,,36,See .11v notes below.
+iPhone 6S,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,19,,,,52,See .11v notes below.
+iPhone 6S+,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,,,,,,See .11v notes below.
+iPhone 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,10.0.1,19,,,,36,
+iPhone 7+,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,19,,,,36,See .11v notes below.
+iPhone 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,,PCAP,EU,10.0.2,19,,,,36,
+iPhone 8+,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,,20,,,,161,
+iPhone SE,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,,PCAP,US,,,,,,40,
+iPhone SE 2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,N,Y,PCAP,HK,,21,,,Y,100,
+iPhone X,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,21,,,,100,
+iPhone Xr,,,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,MRYE2ZD/A iOS 13.6.1,,,,Y,36,
+iPhone XS,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,21,,,,149,
+iPhone XS Max,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,21,,,,153,
+iPhone 11,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,21,,,,36,
+iPhone 11 (EMEA),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EMEA,,21,,,Y,136,
+iPhone 11 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ax,N,Y,PCAP,EMEA,,21,,,Y,36,
+iPhone 11 Pro Max,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,N,Y,PCAP,US,,21,,,,161,
+iPhone 12 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,N,Y,PCAP,EU,,21,,,,52,
+iPod 5th Gen,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,23,,,,36,
+iPod 6th Gen,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,,19,,,,36,
+LG G3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,,,PCAP,US,LG-D851,30,,,,149,
+LG G4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,,,,,,40,
+LG G6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,N,PCAP,US,LG-H872 1.0,17,,,Y,161,
+LG V10,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,LG-H901,,,,Y,149,
+LG V30,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,22,,,,161,
+LG Musicflow Speakers,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,2,n,,N,PCAP,EU,more info,18,,,,44,
+Lenovo YOGA Tablet,,,,,,,,Y,,,,,,,,,,,,,,,,,,2,n,,,PCAP,US,Android 5.0.1,,,,,64,Does not advertise channel support
+Lenovo Ideapad 100s 11,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,Y,PCAP,,,,,,,,
+Lenovo X1 Carbon,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,15,,,Y,165,
+Linksys AE6000,,,,,,,,,,,,,,,,,,,,,,,,,,1,ac,,N,PCAP,US,,17,,,,36,USB devices advertise very little
+Lenovo P1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,15,,,Y,40,
+Lenovo P2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,ac,Y,N,PCAP,EU,Android 7,18,,,,36,
+LeEco LeTV S2 China,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,1,ac,Y,Y,PCAP,APAC,,20,,,,,
+LG OLED55E6P-U,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,,17,,,,36,
+Logitech CIrcle,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,n,,,PCAP,US,Gen 1,,,,,,Lots of info not present in Association Request
+Mac Mini 2018,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,N,N,PCAP,US, Firmware Version: Feb 28 2020 15:24:56 version 9.30.357.35.32.5.47 FWID 01-9ce4adf3,18,,,Y,36,
+Macbook Air Mid 2011,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,Mid-2011,15,,,,36,Does not advertise RSN capabilities
+Macbook Air Early 2014,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,Early-2014,,,,,112,Advertises max Tx of 224 dBm
+Macbook Air Early 2015,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,,PCAP,US,Early-2015 - 10.11.2,,,,,64,
+Macbook Air 13-inch 2018,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,,PCAP,US,,21,,,,36,
+Macbook Air 13-inch 2020,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,,22,,,,157,
+Macbook,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,"late 2006 - 2,1 OSX 10.6.8",15,,,,64,
+Macbook Pro - Retina,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,3,n,,,PCAP,US,Mid-2012,,,,,36,Advertises max Tx of 224 dBm. Does not advertise RSN capabilities
+Macbook Pro - Retina,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,,,PCAP,US,Mid-2014,,,,,36,
+Macbook Pro - Retina,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,N,,PCAP,US,Mid-2015,,,,,,
+Macbook Pro 2017 Touchbar,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,N,N,PCAP,APAC,10.13.3,,,,,,
+Macbook Pro 2017 No Touch,,,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,APAC,10.13.5,,,,,,
+Macbook Pro 2018 Touchbar,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,N,N,PCAP,US,,20,,,,100,
+"Macbook Pro 2019 16""",Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,3,ac,N,N,PCAP,US,,20,,,Y,100,
+Microsoft Lumia 950,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,25,,,,52,
+Microsoft SurfaceBook,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,18,,,,,
+Microsoft Surface Pro2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,12,,,,149,"this article sais ""no"" but association req. frame says yes."
+Microsoft Surface Pro3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,,18,,,,36,
+Microsoft Surface Pro4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,2,ac,N,,PCAP,EU,,18,,,,,
+Microsoft Surface Pro6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,18,,,,36,
+Mitel 5624,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,,US,,10,,,,44,
+Moto E (2nd Gen),N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,,Y,PCAP,EU,5.0.2,,,,,1,2.4GHz Only
+Moto G4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,17,,,,,
+Moto X (1st Gen),Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,?,,,,,PCAP,US,,,,,,,
+Moto X (2nd Gen),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,,Y,PCAP,US,,18,,,Y,All-chan,Supports .11k. Does not advertise RSN capabilities
+Moto X (3rd Gen),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,,Y,PCAP,US,,24,,,Y,48,
+Moto X Play (3rd Gen),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,n,N,,PCAP,EU,6.0.1,17,,,,36,
+Moto Z Force,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,24,,,,132,
+Moto Z Play,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,n,N,Y,PCAP,US,XT1635-02,16,,,,44,
+Motorola MC920N,,,,,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,,,PCAP,US,,25,,,,36,
+NETSCOUT 802.11ac USB,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,3,ac,?,N,PCAP,EU,,,,,,36,Does not advertise channels support. Capture in .11n BSS - can't discern MU support
+Nexus S,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,,,PCAP,EU,,16,,,,1,
+Nexus 10,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,?,,,,,PCAP,US,,,,,,,Yes in HW. SW limited
+Nexus 5,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,1,ac,,,PCAP,US,,,,,,36,Advertises max Tx of 224 dBm
+Nexus 5,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,,,,PCAP,EU,LP,,,,,100,
+Nexus 5X,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,,PCAP,US,,24,,,,144,
+Nexus 6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,17,,,Y,153,
+Nexus 6P,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N*,Y,Y,Y,Y,Y,2,ac,,Y,PCAP,US,,,,,Y,,Suspect no advertised support of 144 is bug. Will confirm.
+Nexus 6P,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,/,/,/,/,/,/,2,ac,N,Y,PCAP,EU,7.1.1,,,,Y,64,
+Nexus 7,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,?,,,,,PCAP,US,<4.2,,,,,,Comment 31 https://code.google.com/p/android/issues/detail?id=59502
+Nexus 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,?,,,,,PCAP,US,>4.3,,,,,,
+Nexus 9,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,6 - WiFi Only,16,,,Y,44,"WiFi-only version = No DFS. LTE version = DFS support, but SIM reqd."
+Nexus 9,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,2,ac,N,Y,PCAP,EU,6 - LTE,18,,,Y,112,"WiFi-only version = No DFS. LTE version = DFS support, but SIM reqd."
+Nexus Player,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,,Y,PCAP,US,,,,,,149,Advertises max Tx of 224 dBm
+Nintendo Switch,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,5.1.0,,,,,,
+Nokia Lumia 735,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,,,PCAP,EU,,,,,,1,2.4GHz Only
+Nokia 6.1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,n,,N,PCAP,US,"TA-1045, Android 8.1",,,,,,
+Nokia 8 TA-1004,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,22,,,,36,
+Nvidia Shield Tablet,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,,,,,36,"Driver: LRX21M.28311_475.5300 IE ""Supported Channels"" not present"
+One Plus One,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,,Y,PCAP,US,,30,,,,149,Supports .11k
+One Plus One,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,EU,,17,,,,36,
+One Plus Two,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,ac,Y,Y,PCAP,EU,,27,,,,100,
+One Plus Two,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,Y,Y,PCAP,US,,24,,,,40,
+One Plus Three,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,ac,Y,N,PCAP,EU,,23,,,,36,
+One Plus Five,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,22,,,Y,48,
+One Plus 5T,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,APAC,8.1,,,,,,
+One Plus Six,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,?,N,PCAP,US,,17,,,,64,Captured on .11n so can't tell MUMIMO capability
+One Plus Six T,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,22,,,,36,
+One Plus 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,30,,,Y,100,
+One Plus 7T,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,24,`,,,36,
+One Plus 8,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,,30,,,,36,
+OnePlus 8 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,US,,17,,,,,
+Oukitel K10000 Pro,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,1,n,,N,PCAP,EU,,20,,,Y,36,
+Proxim WD8494,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,N,PCAP,EU,Proxim Wireless 8494 802.11a/b/g/n USB Adapter,17,,,,36,
+Point Mobile PM45,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,Y,Y,PCAP,US,,20,,,Y,36,
+Raspberry Pi3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,N,PCAP,US,3B+,,,,,149,
+Roku3,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,16,,,,157,
+Roku4,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,440x,17,,,,,
+Roku 4660x,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,N,N,,US,4660x,21,,,,,
+Samsung Galaxy A5,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,EU,,20,,,Y,44,
+Samsung Galaxy A6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,N,N,PCAP,US,,,,,,36,The A6+ should resemble this.
+Samsung Galaxy Avant,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,17,,,,36,Does not advertise RSN capabilities
+Samsung Galaxy Tab A,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,N,Y,,US,7.1.1,23,,,,149,
+Samsung GalaxyTab S,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,2,n,,Y,PCAP,US,4.4.2,,,,,36,SM T700
+Samsung Tab4-SM-T230NU,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,,US,,19,,,,149,
+Samsung Galaxy Tab S2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,2,ac,N,Y,,EU,7,,,,Y,112,
+Samsung Galaxy Ace 3,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,1,n,,,PCAP,EU,4.2.2,,,,,1,2.4GHz Only
+Samsyng Galaxy S2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,14,,,,149,
+Samsung Galaxy S4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,CA,,,,,,36,
+Samsung Galaxy S4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,?,1,n,,,PCAP,US,,,,,,48,
+Samsung S5 Active,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,2,ac,,Y,PCAP,US,,,,,,149,Advertises max Tx of 224 dBm
+Samsung Galaxy S5 Mini,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,1,n,,,PCAP,EU,4.4.2,15,,,,104,Lack of channel support due to ETSI regulatory-domain
+Samsung Galaxy S6 Edge,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y*,Y*,Y*,Y,Y,Y,Y,Y,2,ac,,,PCAP,US,5.0.2,19,,,Y,48,"Advertised 136-144 as not supported, though captures from @timcapalli do show supported. "
+Samsung Galaxy S6,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,2,ac,,Y,PCAP,EU,Non Edge,,,,Y,,Associated to Non VHT AP
+Samsung Galaxy S7 Edge,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,18,,,Y,149,
+Samsung Galaxy S7(Non Edge),Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,18,,,Y,,
+Samsung Galaxy Note 1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,16,,,,149,Custom Rom. Not sure if default OS has same values
+Samsung Galaxy Note 4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,?,,,,,PCAP,US,,,,,,,Need a pcap for this device
+Samsung Galaxy Note 3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,Y,Y,Y,Y,Y,1,ac,,,PCAP,US,,,,,,149,Advertises max Tx of 224 dBm
+Samsung Galaxy Note 3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,US,Android 5,17,,,,36,
+Samsung Galaxy Note 7,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,,PCAP,US,,17,,,Y,36,
+Samsung Galaxy Note 8,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,N,,EU,,19,,,Y,112,
+Samsung Galaxy Note 9,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,19,,,Y,165,
+Samsung Galaxy Note 10,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ax,Y,N,PCAP,US,SM-N975F,18,,,Y,124,
+Samsung Galaxy Note 10+,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,US,,18,,,Y,36,
+Samsung Galaxy S8,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,,US,,19,,,Y,100,
+Samsung Galaxy S8 Plus,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,17,,,Y,60,
+Samsung Galaxy S9,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,Y,N,,US,,17,,,Y,,
+Samsung Galaxy S9 Plus,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,EU,,17,,,Y,44,
+Samsung Galaxy S10,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,US,,19,,,Y,,
+Samsung Galaxy S10e,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,US,,19,,,Y,36,
+Samsung Galaxy S10+,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ax,Y,Y,PCAP,EU,,18,,,Y,36,
+Samsung Galaxy A3 2017,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,Y,Y,PCAP,EU,Android 8.0.0,27,,,,140,
+Samsung Galaxy A50,,,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,EU,"Model# SM-A505FN Android 10, Kernel 4.14.62, security patch 1st Aug 2020",17,,,Y,36,
+Samsung J5,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,EU,2017,,,,,,
+Samsung J7 Sky Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,Y,Y,PCAP,US,,23,,,Y,100,
+Smixin Compact soap,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,,PCAP,EU,Soap Dispenser,,,,,11,2.4GHz Only
+Sony z4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,Y,PCAP,EU,4.2.2,15,,,,108,
+Sony Bravia KDL,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,48w600b,5,,,,153,
+Sony Playstation 5,,,,,,,,,,,,,,,,,,,,,,,,,,2,ax,Y,N,PCAP,CA,,20,,,,140,
+Sony Xperia Z1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,N,Y,PCAP,US,,30,,,,36,Supposedly .11ac but not VHT IE
+Sony Xperia Z2,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,EU,,18,,,Y,36,
+Sony Xperia X Compact,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,N,Y,PCAP,EU,,18,,,,36,
+Tesla Model 3,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,,16,,,,36,
+Tesla Model S,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,16,,,,36,
+Toshiba Chromebook CB30-B-104,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,EU,ChromeOS 75.0.3770.129,22,,,,112,
+TotalTrax EquipManager EM1302,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,,,,,PCAP,,,10,,,,161,totaltraxinc.com
+TP-Link USB T9UH,,,,,,,,,,,,,,,,,,,,,,,,,,3,ac,N,Y,PCAP,US,,,,,,100,Does not report Supported Channels
+Ubiquiti Cam UVC G3 Micro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,n,,,PCAP,US,,14,,,,161,
+Vizio Smartcast M Series,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,US,2016:M60-D1,,,,,36,.11v was enabled on BSS
+Vizio Android Remote,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,N,PCAP,US,XR6M10,17,,,Y,36,.11v was enabled on BSS
+XBOX One,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,n,,,PCAP,US,,18,,,,36,
+Xbox One S,,,,,,,,,,,,,,,,,,,,,,,,,,2,ac,N,N,PCAP,EU,,,,,,36,
+Xiaomi MI 8 Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,US,,22,,,,36,
+Xiaomi - RedmiNote4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,n,,Y,,APAC,,30,,,Y,149,
+Xiaomi Mi A1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,Y,N,PCAP,EU,,20,,,,,
+Xiaomi Mia2 Lite,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,,PCAP,,,,,,,149,Does not report much in Assoc req.
+Xiaomi Mi4,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,ac,Y,Y,,APAC,,30,,,Y,149,
+Xiaomi Pocophone F1,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,US,,14,,,,149,
+Xiaomi RedmiNote5,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,/,/,/,/,/,1,ac,N,Y,PCAP,EU,Android 8.1.0,22,,,,140,
+Xiaomi Redmi 6A Global,,,,,,,,,,,,,,,,,,,,,,,,,,1,n,,Y,PCAP,EU,,20,,,Y,,
+Zebra MC40,Y,Y,Y,Y,Y,Y,Y,Y,Y*,Y,Y,Y,Y,N,N,N,N,Y*,Y,N,Y*,Y,Y,Y,Y,1,n,,,PCAP,US,RevB & RevB+,19,,,,40,*Advertises less support than it actually has. See the PCAPs for proof.
+Zebra TC70x,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,n,,N,,US,,17,,,,,
+Zebra TC8000,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,1,n,,Y,PCAP,US,,17,,,,36,
+Zebra QLn420,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,1,n,,N,PCAP,US,,20,,,,157,
+Zebra Motorola MC32N0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,n,,,PCAP,EU,,25,,,,44,Tx powers seem reversed. Doesnt report channel support.
+Zebra Motorola VH10 ,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,n,,,PCAP,EU,,,,,,,Tx powers seem reversed. Doesnt report channel support.
+Zebra MC930P,,,,,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,2,ac,N,N,PCAP,EU,Android 8.1,22,,,,36,
+Zebra MC3300K,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,/,/,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,N,PCAP,RU,,17,,,,36,
+Zebra WT6000,Y,Y,Y,Y,Y,Y,Y,Y,/,/,/,/,/,/,/,/,Y,Y,Y,Y,Y,Y,Y,Y,Y,2,ac,N,Y,PCAP,RU,,17,,,,36,
+ZTE Axon 7,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y,Y,2,ac,Y,Y,PCAP,EU,,23,,,,64,
+ZTE Axon Pro,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,1,ac,Y,N,PCAP,US,,24,,,,36,
