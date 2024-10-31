@@ -1,1379 +1,1384 @@
 ---
 client_devices:
-  - manufacturer: Acer
-    max_tx: 18
-    name: Chromebook R13
-    nss: 2
-    phy: VHT
-  - manufacturer: Amazon
-    max_tx: 11
-    name: Echo
-    nss: 2
-    phy: HT
-  - manufacturer: Amazon
-    max_tx: 15
-    name: Echo Dot
-    nss: 2
-    phy: HT
-  - manufacturer: Amazon
-    max_tx: 30
-    name: Fire Phone
-    nss: 1
-    phy: VHT
-  - manufacturer: Amazon
-    max_tx: 7
-    name: Fire TV
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: TV 4K
-    nss: 2
-    phy: VHT
-  - manufacturer: ASCOM
-    max_tx: 10
-    name: i62
-    nss: 1
-    phy: HT
-  - manufacturer: ASUS
-    max_tx: -1
-    name: USB-AC68
-    nss: 3
-    phy: VHT
-  - manufacturer: Asus
-    max_tx: -1
-    name: PCE-AC88
-    nss: 4
-    phy: VHT
-  - manufacturer: Asus
-    max_tx: -1
-    name: USB-AC56
-    nss: 2
-    phy: VHT
-  - manufacturer: Blackberry
-    max_tx: 17
-    name: Key One
-    nss: 1
-    phy: VHT
-  - manufacturer: Blackberry
-    max_tx: -1
-    name: Passport
-    nss: 1
-    phy: VHT
-  - manufacturer: Chromecast
-    max_tx: 20
-    name: '2'
-    nss: 1
-    phy: VHT
-  - manufacturer: Chromecast
-    max_tx: 20
-    name: Audio
-    nss: 1
-    phy: VHT
-  - manufacturer: Cisco
-    max_tx: -1
-    name: '8821'
-    nss: 1
-    phy: VHT
-  - manufacturer: Cisco
-    max_tx: -1
-    name: '8861'
-    nss: 1
-    phy: VHT
-  - manufacturer: Cisco
-    max_tx: 24
-    name: CP-840S
-    nss: 2
-    phy: VHT
-  - manufacturer: Clover
-    max_tx: 17
-    name: POS
-    nss: 1
-    phy: HT
-  - manufacturer: ComFast
-    max_tx: 21
-    name: CF-912AC
-    nss: 2
-    phy: VHT
-  - manufacturer: ComFast
-    max_tx: -1
-    name: CF-917 RTL8814
-    nss: 3
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 15
-    name: latitude 3150
-    nss: 2
-    phy: HT
-  - manufacturer: Dell
-    max_tx: 11
-    name: latitude E5470
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 11
-    name: latitude 5480
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 25
-    name: latitude E5270
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 11
-    name: latitude E5450
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 11
-    name: Latitude 5440
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 11
-    name: latitude 7250
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 11
-    name: Precision 7510
-    nss: 2
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: -1
-    name: Venue 8
-    nss: 1
-    phy: VHT
-  - manufacturer: Dell
-    max_tx: 22
-    name: Chromebook 11
-    nss: 2
-    phy: VHT
-  - manufacturer: DirecTV
-    max_tx: -1
-    name: C41W-500
-    nss: 4
-    phy: HT
-  - manufacturer: EcoBee
-    max_tx: -1
-    name: '3'
-    nss: 1
-    phy: HT
-  - manufacturer: Edimax
-    max_tx: -1
-    name: AC1200 USB
-    nss: 2
-    phy: VHT
-  - manufacturer: Edimax
-    max_tx: -1
-    name: EW7833UAC
-    nss: 3
-    phy: VHT
-  - manufacturer: Netscout
-    max_tx: -1
-    name: Aircheck G2
-    nss: 3
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 20
-    name: Chromecast Ultra
-    nss: 2
-    phy: VHT
-  - manufacturer: Google
-    max_tx: -1
-    name: Home
-    nss: 1
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 20
-    name: Home Mini
-    nss: 1
-    phy: VHT
-  - manufacturer: Google
-    max_tx: -1
-    name: Home Hub
-    nss: 1
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 20
-    name: Nest Mini
-    nss: 1
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 30
-    name: Pixel
-    nss: 2
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 22
-    name: Pixel 3XL
-    nss: 2
-    phy: VHT
-  - manufacturer: Google
-    max_tx: -1
-    name: Pixel 4
-    nss: 2
-    phy: VHT
-  - manufacturer: Google
-    max_tx: 16
-    name: Stadia
-    nss: 1
-    phy: VHT
-  - manufacturer: HP
-    max_tx: 15
-    name: EliteBook Folio
-    nss: 2
-    phy: HT
-  - manufacturer: HP
-    max_tx: 10
-    name: zBook 15inch
-    nss: 2
-    phy: HT
-  - manufacturer: Chromebook
-    max_tx: 22
-    name: HP13G1
-    nss: 2
-    phy: VHT
-  - manufacturer: HTC
-    max_tx: 17
-    name: One(M8)
-    nss: 1
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 20
-    name: Honor 6A
-    nss: 1
-    phy: HT
-  - manufacturer: Huawei
-    max_tx: -1
-    name: Honor 8
-    nss: 1
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 19
-    name: Honor 9
-    nss: 1
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 23
-    name: P20 Light
-    nss: 1
-    phy: HT
-  - manufacturer: Huwei
-    max_tx: 16
-    name: P20 Pro
-    nss: 2
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: -1
-    name: P9 Plu
-    nss: 1
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 23
-    name: P30 Lite
-    nss: 1
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 23
-    name: P30 Pro
-    nss: 2
-    phy: VHT
-  - manufacturer: Huawei
-    max_tx: 23
-    name: P40 ANA-NX9
-    nss: 2
-    phy: HE
-  - manufacturer: ICOM
-    max_tx: 20
-    name: IP100H
-    nss: 1
-    phy: HT
-  - manufacturer: Intel
-    max_tx: 22
-    name: AX200NGW
-    nss: 2
-    phy: HE
-  - manufacturer: Intel
-    max_tx: 15
-    name: '6235'
-    nss: 2
-    phy: HT
-  - manufacturer: Intel
-    max_tx: 22
-    name: '7265'
-    nss: 2
-    phy: VHT
-  - manufacturer: Intel
-    max_tx: 22
-    name: '7260'
-    nss: 2
-    phy: VHT
-  - manufacturer: Intel
-    max_tx: 15
-    name: 6300-Ultimate
-    nss: 3
-    phy: HT
-  - manufacturer: Intel
-    max_tx: 15
-    name: '8265'
-    nss: 2
-    phy: VHT
-  - manufacturer: iMac
-    max_tx: -1
-    name: 5K
-    nss: 3
-    phy: VHT
-  - manufacturer: iMac
-    max_tx: 15
-    name: (Mid 2007)
-    nss: 2
-    phy: HT
-  - manufacturer: iMac
-    max_tx: -1
-    name: (Mid 2011)
-    nss: 3
-    phy: HT
-  - manufacturer: iPad2
-    max_tx: 25
-    name: (Retina)
-    nss: 1
-    phy: HT
-  - manufacturer: iPad
-    max_tx: 24
-    name: '3'
-    nss: 1
-    phy: HT
-  - manufacturer: iPad
-    max_tx: 19
-    name: '4'
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: -1
-    name: Air
-    nss: 2
-    phy: HT
-  - manufacturer: iPad
-    max_tx: -1
-    name: Air 2
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: 24
-    name: Mini 1
-    nss: 1
-    phy: HT
-  - manufacturer: iPad
-    max_tx: 19
-    name: Mini 4
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: -1
-    name: Pro
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: 18
-    name: Pro 7
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: 20
-    name: Pro 10
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: 19
-    name: 9 (2017)
-    nss: 2
-    phy: VHT
-  - manufacturer: iPad
-    max_tx: 19
-    name: 6th Gen
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 22
-    name: iPhone 5
-    nss: -1
-    phy: HT
-  - manufacturer: Apple
-    max_tx: 24
-    name: iPhone 5c
-    nss: 1
-    phy: HT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone 5s
-    nss: 1
-    phy: HT
-  - manufacturer: Apple
-    max_tx: 22
-    name: iPhone 5s
-    nss: 1
-    phy: HT
-  - manufacturer: Apple
-    max_tx: 18
-    name: iPhone 6
-    nss: 1
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: -1
-    name: iPhone 6
-    nss: 1
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 19
-    name: iPhone 6S
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: -1
-    name: iPhone 6S+
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 19
-    name: iPhone 7
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 19
-    name: iPhone 7+
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 19
-    name: iPhone 7
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 20
-    name: iPhone 8+
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: -1
-    name: iPhone SE
-    nss: 1
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone SE2
-    nss: 2
-    phy: HE
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone X
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: -1
-    name: iPhone Xr
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone XS
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone XSMax
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone 11
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone 11(EMEA)
-    nss: 2
-    phy: VHT
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone 11Pro
-    nss: 2
-    phy: HE
-  - manufacturer: Apple
-    max_tx: 21
-    name: iPhone 12Pro
-    nss: 2
-    phy: HE
-  - manufacturer: iPod
-    max_tx: 23
-    name: 5th Gen
-    nss: 1
-    phy: HT
-  - manufacturer: iPod
-    max_tx: 19
-    name: 6th Gen
-    nss: 1
-    phy: VHT
-  - manufacturer: LG
-    max_tx: 30
-    name: G3
-    nss: 1
-    phy: VHT
-  - manufacturer: LG
-    max_tx: -1
-    name: G4
-    nss: 1
-    phy: VHT
-  - manufacturer: LG
-    max_tx: 17
-    name: G6
-    nss: 2
-    phy: VHT
-  - manufacturer: LG
-    max_tx: -1
-    name: V10
-    nss: 1
-    phy: VHT
-  - manufacturer: LG
-    max_tx: 22
-    name: V30
-    nss: 2
-    phy: VHT
-  - manufacturer: LG
-    max_tx: 18
-    name: Musicflow Speakers
-    nss: 2
-    phy: HT
-  - manufacturer: Lenovo
-    max_tx: -1
-    name: YOGA Tablet
-    nss: 2
-    phy: HT
-  - manufacturer: Lenovo
-    max_tx: 15
-    name: X1 Carbon
-    nss: 2
-    phy: VHT
-  - manufacturer: Linksys
-    max_tx: 17
-    name: AE6000
-    nss: 1
-    phy: VHT
-  - manufacturer: Lenovo
-    max_tx: 15
-    name: P1
-    nss: 2
-    phy: VHT
-  - manufacturer: Lenovo
-    max_tx: 18
-    name: P2
-    nss: 1
-    phy: VHT
-  - manufacturer: LG
-    max_tx: 17
-    name: OLED55E6P-U
-    nss: 2
-    phy: VHT
-  - manufacturer: Logitech
-    max_tx: -1
-    name: CIrcle
-    nss: 1
-    phy: HT
-  - manufacturer: Mac
-    max_tx: 18
-    name: Mini 2018
-    nss: 3
-    phy: VHT
-  - manufacturer: Microsoft
-    max_tx: 25
-    name: Lumia 950
-    nss: 2
-    phy: VHT
-  - manufacturer: Microsoft
-    max_tx: 18
-    name: SurfaceBook
-    nss: 2
-    phy: VHT
-  - manufacturer: Microsoft
-    max_tx: 12
-    name: Surface Pro2
-    nss: 2
-    phy: HT
-  - manufacturer: Microsoft
-    max_tx: 18
-    name: Surface Pro3
-    nss: 2
-    phy: VHT
-  - manufacturer: Microsoft
-    max_tx: 18
-    name: Surface Pro4
-    nss: 2
-    phy: VHT
-  - manufacturer: Microsoft
-    max_tx: 18
-    name: Surface Pro6
-    nss: 2
-    phy: VHT
-  - manufacturer: Mitel
-    max_tx: 10
-    name: '5624'
-    nss: 1
-    phy: HT
-  - manufacturer: Moto
-    max_tx: 17
-    name: G4
-    nss: 1
-    phy: HT
-  - manufacturer: Moto
-    max_tx: 24
-    name: Z Force
-    nss: 2
-    phy: VHT
-  - manufacturer: Moto
-    max_tx: 16
-    name: Z Play
-    nss: 1
-    phy: HT
-  - manufacturer: Motorola
-    max_tx: 25
-    name: MC920N
-    nss: 1
-    phy: HT
-  - manufacturer: NETSCOUT
-    max_tx: -1
-    name: 802.11ac USB
-    nss: 3
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: 16
-    name: S
-    nss: 1
-    phy: HT
-  - manufacturer: Nexus
-    max_tx: -1
-    name: '5'
-    nss: 1
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: 24
-    name: 5X
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: 17
-    name: '6'
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: -1
-    name: 6P
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: -1
-    name: 6P
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: 16
-    name: '9'
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: 18
-    name: '9'
-    nss: 2
-    phy: VHT
-  - manufacturer: Nexus
-    max_tx: -1
-    name: Player
-    nss: 2
-    phy: VHT
-  - manufacturer: Nintendo
-    max_tx: -1
-    name: Switch
-    nss: 2
-    phy: VHT
-  - manufacturer: Nokia
-    max_tx: -1
-    name: Lumia 735
-    nss: 1
-    phy: HT
-  - manufacturer: Nokia
-    max_tx: -1
-    name: '6.1'
-    nss: 1
-    phy: HT
-  - manufacturer: Nokia
-    max_tx: 22
-    name: 8 TA-1004
-    nss: 2
-    phy: VHT
-  - manufacturer: Nvidia
-    max_tx: -1
-    name: Shield Tablet
-    nss: 2
-    phy: HT
-  - manufacturer: One
-    max_tx: 30
-    name: Plus One
-    nss: 1
-    phy: VHT
-  - manufacturer: One
-    max_tx: 17
-    name: Plus One
-    nss: 1
-    phy: VHT
-  - manufacturer: One
-    max_tx: 27
-    name: Plus Two
-    nss: 1
-    phy: VHT
-  - manufacturer: One
-    max_tx: 24
-    name: Plus Two
-    nss: 1
-    phy: VHT
-  - manufacturer: One
-    max_tx: 23
-    name: Plus Three
-    nss: 1
-    phy: VHT
-  - manufacturer: One
-    max_tx: 22
-    name: Plus Five
-    nss: 2
-    phy: VHT
-  - manufacturer: One
-    max_tx: -1
-    name: Plus 5T
-    nss: 2
-    phy: VHT
-  - manufacturer: One
-    max_tx: 17
-    name: Plus Six
-    nss: 2
-    phy: VHT
-  - manufacturer: One
-    max_tx: 30
-    name: Plus 7
-    nss: 2
-    phy: VHT
-  - manufacturer: One
-    max_tx: 24
-    name: Plus 7T
-    nss: 2
-    phy: VHT
-  - manufacturer: One
-    max_tx: 30
-    name: Plus 8
-    nss: 2
-    phy: VHT
-  - manufacturer: OnePlus
-    max_tx: 17
-    name: 8 Pro
-    nss: 2
-    phy: HE
-  - manufacturer: Oukitel
-    max_tx: 20
-    name: K10000 Pro
-    nss: 1
-    phy: HT
-  - manufacturer: Proxim
-    max_tx: 17
-    name: WD8494
-    nss: 2
-    phy: HT
-  - manufacturer: Point
-    max_tx: 20
-    name: Mobile PM45
-    nss: 1
-    phy: VHT
-  - manufacturer: Raspberry
-    max_tx: -1
-    name: Pi3
-    nss: 1
-    phy: VHT
-  - manufacturer: Roku
-    max_tx: 21
-    name: 4660x
-    nss: 2
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: 20
-    name: Galaxy A5
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: Galaxy A6
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: 17
-    name: Galaxy Avant
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: GalaxyTab S
-    nss: 2
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: 19
-    name: Tab4-SM-T230NU
-    nss: 1
-    phy: HT
-  - manufacturer: Samsyng
-    max_tx: 14
-    name: Galaxy S2
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: Galaxy S4
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: Galaxy S4
-    nss: 1
-    phy: HT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: S5 Active
-    nss: 2
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: Galaxy S6
-    nss: 2
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: 19
-    name: Galaxy S8
-    nss: 2
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: 17
-    name: Galaxy S9
-    nss: 2
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: 19
-    name: Galaxy S10
-    nss: 2
-    phy: HE
-  - manufacturer: Samsung
-    max_tx: 19
-    name: Galaxy S10e
-    nss: 2
-    phy: HE
-  - manufacturer: Samsung
-    max_tx: 18
-    name: Galaxy S10+
-    nss: 2
-    phy: HE
-  - manufacturer: Samsung
-    max_tx: 17
-    name: Galaxy A50
-    nss: 1
-    phy: VHT
-  - manufacturer: Samsung
-    max_tx: -1
-    name: J5
-    nss: 1
-    phy: HT
-  - manufacturer: Smixin
-    max_tx: -1
-    name: Compact soap
-    nss: 1
-    phy: HT
-  - manufacturer: Sony
-    max_tx: 15
-    name: z4
-    nss: 2
-    phy: HT
-  - manufacturer: Sony
-    max_tx: 5
-    name: Bravia KDL
-    nss: 2
-    phy: HT
-  - manufacturer: Sony
-    max_tx: 20
-    name: Playstation 5
-    nss: 2
-    phy: HE
-  - manufacturer: Sony
-    max_tx: 30
-    name: Xperia Z1
-    nss: 1
-    phy: HT
-  - manufacturer: Sony
-    max_tx: 18
-    name: Xperia Z2
-    nss: 1
-    phy: VHT
-  - manufacturer: Tesla
-    max_tx: 16
-    name: Model 3
-    nss: 2
-    phy: VHT
-  - manufacturer: Tesla
-    max_tx: 16
-    name: Model S
-    nss: 2
-    phy: VHT
-  - manufacturer: Toshiba
-    max_tx: 22
-    name: Chromebook CB30-B-104
-    nss: 2
-    phy: VHT
-  - manufacturer: TP-Link
-    max_tx: -1
-    name: USB T9UH
-    nss: 3
-    phy: VHT
-  - manufacturer: Vizio
-    max_tx: 17
-    name: Android Remote
-    nss: 1
-    phy: HT
-  - manufacturer: XBOX
-    max_tx: 18
-    name: One
-    nss: 2
-    phy: HT
-  - manufacturer: Xbox
-    max_tx: -1
-    name: One S
-    nss: 2
-    phy: VHT
-  - manufacturer: Xiaomi
-    max_tx: 30
-    name: '- RedmiNote4'
-    nss: 1
-    phy: HT
-  - manufacturer: Xiaomi
-    max_tx: 20
-    name: Mi A1
-    nss: 1
-    phy: VHT
-  - manufacturer: Xiaomi
-    max_tx: -1
-    name: Mia2 Lite
-    nss: 1
-    phy: HT
-  - manufacturer: Xiaomi
-    max_tx: 30
-    name: Mi4
-    nss: 1
-    phy: VHT
-  - manufacturer: Xiaomi
-    max_tx: 14
-    name: Pocophone F1
-    nss: 2
-    phy: VHT
-  - manufacturer: Xiaomi
-    max_tx: 22
-    name: RedmiNote5
-    nss: 1
-    phy: VHT
-  - manufacturer: Zebra
-    max_tx: 19
-    name: MC40
-    nss: 1
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: 17
-    name: TC70x
-    nss: 2
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: 17
-    name: TC8000
-    nss: 1
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: 20
-    name: QLn420
-    nss: 1
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: 25
-    name: Motorola MC32N0
-    nss: 1
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: -1
-    name: Motorola VH10
-    nss: 1
-    phy: HT
-  - manufacturer: Zebra
-    max_tx: 22
-    name: MC930P
-    nss: 2
-    phy: VHT
-  - manufacturer: Zebra
-    max_tx: 17
-    name: MC3300K
-    nss: 2
-    phy: VHT
-  - manufacturer: Zebra
-    max_tx: 17
-    name: WT6000
-    nss: 2
-    phy: VHT
-  - manufacturer: ZTE
-    max_tx: 23
-    name: Axon 7
-    nss: 2
-    phy: VHT
-  - manufacturer: ZTE
-    max_tx: 24
-    name: Axon Pro
-    nss: 1
-    phy: VHT
+    - manufacturer: Acer
+      max_tx: 18
+      name: Chromebook R13
+      nss: 2
+      phy: VHT
+    - manufacturer: Amazon
+      max_tx: 11
+      name: Echo
+      nss: 2
+      phy: HT
+    - manufacturer: Amazon
+      max_tx: 15
+      name: Echo Dot
+      nss: 2
+      phy: HT
+    - manufacturer: Amazon
+      max_tx: 30
+      name: Fire Phone
+      nss: 1
+      phy: VHT
+    - manufacturer: Amazon
+      max_tx: 7
+      name: Fire TV
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: TV 4K
+      nss: 2
+      phy: VHT
+    - manufacturer: ASCOM
+      max_tx: 10
+      name: i62
+      nss: 1
+      phy: HT
+    - manufacturer: ASUS
+      max_tx: -1
+      name: USB-AC68
+      nss: 3
+      phy: VHT
+    - manufacturer: Asus
+      max_tx: -1
+      name: PCE-AC88
+      nss: 4
+      phy: VHT
+    - manufacturer: Asus
+      max_tx: -1
+      name: USB-AC56
+      nss: 2
+      phy: VHT
+    - manufacturer: Blackberry
+      max_tx: 17
+      name: Key One
+      nss: 1
+      phy: VHT
+    - manufacturer: Blackberry
+      max_tx: -1
+      name: Passport
+      nss: 1
+      phy: VHT
+    - manufacturer: Chromecast
+      max_tx: 20
+      name: "2"
+      nss: 1
+      phy: VHT
+    - manufacturer: Chromecast
+      max_tx: 20
+      name: Audio
+      nss: 1
+      phy: VHT
+    - manufacturer: Cisco
+      max_tx: -1
+      name: "8821"
+      nss: 1
+      phy: VHT
+    - manufacturer: Cisco
+      max_tx: -1
+      name: "8861"
+      nss: 1
+      phy: VHT
+    - manufacturer: Cisco
+      max_tx: 24
+      name: CP-840S
+      nss: 2
+      phy: VHT
+    - manufacturer: Clover
+      max_tx: 17
+      name: POS
+      nss: 1
+      phy: HT
+    - manufacturer: ComFast
+      max_tx: 21
+      name: CF-912AC
+      nss: 2
+      phy: VHT
+    - manufacturer: ComFast
+      max_tx: -1
+      name: CF-917 RTL8814
+      nss: 3
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 15
+      name: latitude 3150
+      nss: 2
+      phy: HT
+    - manufacturer: Dell
+      max_tx: 11
+      name: latitude E5470
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 11
+      name: latitude 5480
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 25
+      name: latitude E5270
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 11
+      name: latitude E5450
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 11
+      name: Latitude 5440
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 11
+      name: latitude 7250
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 11
+      name: Precision 7510
+      nss: 2
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: -1
+      name: Venue 8
+      nss: 1
+      phy: VHT
+    - manufacturer: Dell
+      max_tx: 22
+      name: Chromebook 11
+      nss: 2
+      phy: VHT
+    - manufacturer: DirecTV
+      max_tx: -1
+      name: C41W-500
+      nss: 4
+      phy: HT
+    - manufacturer: EcoBee
+      max_tx: -1
+      name: "3"
+      nss: 1
+      phy: HT
+    - manufacturer: Edimax
+      max_tx: -1
+      name: AC1200 USB
+      nss: 2
+      phy: VHT
+    - manufacturer: Edimax
+      max_tx: -1
+      name: EW7833UAC
+      nss: 3
+      phy: VHT
+    - manufacturer: Netscout
+      max_tx: -1
+      name: Aircheck G2
+      nss: 3
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 20
+      name: Chromecast Ultra
+      nss: 2
+      phy: VHT
+    - manufacturer: Google
+      max_tx: -1
+      name: Home
+      nss: 1
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 20
+      name: Home Mini
+      nss: 1
+      phy: VHT
+    - manufacturer: Google
+      max_tx: -1
+      name: Home Hub
+      nss: 1
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 20
+      name: Nest Mini
+      nss: 1
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 30
+      name: Pixel
+      nss: 2
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 22
+      name: Pixel 3XL
+      nss: 2
+      phy: VHT
+    - manufacturer: Google
+      max_tx: -1
+      name: Pixel 4
+      nss: 2
+      phy: VHT
+    - manufacturer: Google
+      max_tx: 16
+      name: Stadia
+      nss: 1
+      phy: VHT
+    - manufacturer: HP
+      max_tx: 15
+      name: EliteBook Folio
+      nss: 2
+      phy: HT
+    - manufacturer: HP
+      max_tx: 10
+      name: zBook 15inch
+      nss: 2
+      phy: HT
+    - manufacturer: Chromebook
+      max_tx: 22
+      name: HP13G1
+      nss: 2
+      phy: VHT
+    - manufacturer: HTC
+      max_tx: 17
+      name: One(M8)
+      nss: 1
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 20
+      name: Honor 6A
+      nss: 1
+      phy: HT
+    - manufacturer: Huawei
+      max_tx: -1
+      name: Honor 8
+      nss: 1
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 19
+      name: Honor 9
+      nss: 1
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 23
+      name: P20 Light
+      nss: 1
+      phy: HT
+    - manufacturer: Huwei
+      max_tx: 16
+      name: P20 Pro
+      nss: 2
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: -1
+      name: P9 Plu
+      nss: 1
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 23
+      name: P30 Lite
+      nss: 1
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 23
+      name: P30 Pro
+      nss: 2
+      phy: VHT
+    - manufacturer: Huawei
+      max_tx: 23
+      name: P40 ANA-NX9
+      nss: 2
+      phy: HE
+    - manufacturer: ICOM
+      max_tx: 20
+      name: IP100H
+      nss: 1
+      phy: HT
+    - manufacturer: Intel
+      max_tx: 22
+      name: AX200NGW
+      nss: 2
+      phy: HE
+    - manufacturer: Intel
+      max_tx: 15
+      name: "6235"
+      nss: 2
+      phy: HT
+    - manufacturer: Intel
+      max_tx: 22
+      name: "7265"
+      nss: 2
+      phy: VHT
+    - manufacturer: Intel
+      max_tx: 22
+      name: "7260"
+      nss: 2
+      phy: VHT
+    - manufacturer: Intel
+      max_tx: 15
+      name: 6300-Ultimate
+      nss: 3
+      phy: HT
+    - manufacturer: Intel
+      max_tx: 15
+      name: "8265"
+      nss: 2
+      phy: VHT
+    - manufacturer: iMac
+      max_tx: -1
+      name: 5K
+      nss: 3
+      phy: VHT
+    - manufacturer: iMac
+      max_tx: 15
+      name: (Mid 2007)
+      nss: 2
+      phy: HT
+    - manufacturer: iMac
+      max_tx: -1
+      name: (Mid 2011)
+      nss: 3
+      phy: HT
+    - manufacturer: iPad2
+      max_tx: 25
+      name: (Retina)
+      nss: 1
+      phy: HT
+    - manufacturer: iPad
+      max_tx: 24
+      name: "3"
+      nss: 1
+      phy: HT
+    - manufacturer: iPad
+      max_tx: 19
+      name: "4"
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: -1
+      name: Air
+      nss: 2
+      phy: HT
+    - manufacturer: iPad
+      max_tx: -1
+      name: Air 2
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: 24
+      name: Mini 1
+      nss: 1
+      phy: HT
+    - manufacturer: iPad
+      max_tx: 19
+      name: Mini 4
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: -1
+      name: Pro
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: 18
+      name: Pro 7
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: 20
+      name: Pro 10
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: 19
+      name: 9 (2017)
+      nss: 2
+      phy: VHT
+    - manufacturer: iPad
+      max_tx: 19
+      name: 6th Gen
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 22
+      name: iPhone 5
+      nss: -1
+      phy: HT
+    - manufacturer: Apple
+      max_tx: 24
+      name: iPhone 5c
+      nss: 1
+      phy: HT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 5s
+      nss: 1
+      phy: HT
+    - manufacturer: Apple
+      max_tx: 22
+      name: iPhone 5s
+      nss: 1
+      phy: HT
+    - manufacturer: Apple
+      max_tx: 18
+      name: iPhone 6
+      nss: 1
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: -1
+      name: iPhone 6
+      nss: 1
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 19
+      name: iPhone 6S
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: -1
+      name: iPhone 6S+
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 19
+      name: iPhone 7
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 19
+      name: iPhone 7+
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 19
+      name: iPhone 7
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 20
+      name: iPhone 8+
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: -1
+      name: iPhone SE
+      nss: 1
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone SE2
+      nss: 2
+      phy: HE
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone X
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: -1
+      name: iPhone Xr
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone XS
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone XSMax
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 11
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 11(EMEA)
+      nss: 2
+      phy: VHT
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 11Pro
+      nss: 2
+      phy: HE
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 12Pro
+      nss: 2
+      phy: HE
+    - manufacturer: Apple
+      max_tx: 21
+      name: iPhone 16
+      nss: 2
+      phy: EHT
+    - manufacturer: iPod
+      max_tx: 23
+      name: 5th Gen
+      nss: 1
+      phy: HT
+    - manufacturer: iPod
+      max_tx: 19
+      name: 6th Gen
+      nss: 1
+      phy: VHT
+    - manufacturer: LG
+      max_tx: 30
+      name: G3
+      nss: 1
+      phy: VHT
+    - manufacturer: LG
+      max_tx: -1
+      name: G4
+      nss: 1
+      phy: VHT
+    - manufacturer: LG
+      max_tx: 17
+      name: G6
+      nss: 2
+      phy: VHT
+    - manufacturer: LG
+      max_tx: -1
+      name: V10
+      nss: 1
+      phy: VHT
+    - manufacturer: LG
+      max_tx: 22
+      name: V30
+      nss: 2
+      phy: VHT
+    - manufacturer: LG
+      max_tx: 18
+      name: Musicflow Speakers
+      nss: 2
+      phy: HT
+    - manufacturer: Lenovo
+      max_tx: -1
+      name: YOGA Tablet
+      nss: 2
+      phy: HT
+    - manufacturer: Lenovo
+      max_tx: 15
+      name: X1 Carbon
+      nss: 2
+      phy: VHT
+    - manufacturer: Linksys
+      max_tx: 17
+      name: AE6000
+      nss: 1
+      phy: VHT
+    - manufacturer: Lenovo
+      max_tx: 15
+      name: P1
+      nss: 2
+      phy: VHT
+    - manufacturer: Lenovo
+      max_tx: 18
+      name: P2
+      nss: 1
+      phy: VHT
+    - manufacturer: LG
+      max_tx: 17
+      name: OLED55E6P-U
+      nss: 2
+      phy: VHT
+    - manufacturer: Logitech
+      max_tx: -1
+      name: CIrcle
+      nss: 1
+      phy: HT
+    - manufacturer: Mac
+      max_tx: 18
+      name: Mini 2018
+      nss: 3
+      phy: VHT
+    - manufacturer: Microsoft
+      max_tx: 25
+      name: Lumia 950
+      nss: 2
+      phy: VHT
+    - manufacturer: Microsoft
+      max_tx: 18
+      name: SurfaceBook
+      nss: 2
+      phy: VHT
+    - manufacturer: Microsoft
+      max_tx: 12
+      name: Surface Pro2
+      nss: 2
+      phy: HT
+    - manufacturer: Microsoft
+      max_tx: 18
+      name: Surface Pro3
+      nss: 2
+      phy: VHT
+    - manufacturer: Microsoft
+      max_tx: 18
+      name: Surface Pro4
+      nss: 2
+      phy: VHT
+    - manufacturer: Microsoft
+      max_tx: 18
+      name: Surface Pro6
+      nss: 2
+      phy: VHT
+    - manufacturer: Mitel
+      max_tx: 10
+      name: "5624"
+      nss: 1
+      phy: HT
+    - manufacturer: Moto
+      max_tx: 17
+      name: G4
+      nss: 1
+      phy: HT
+    - manufacturer: Moto
+      max_tx: 24
+      name: Z Force
+      nss: 2
+      phy: VHT
+    - manufacturer: Moto
+      max_tx: 16
+      name: Z Play
+      nss: 1
+      phy: HT
+    - manufacturer: Motorola
+      max_tx: 25
+      name: MC920N
+      nss: 1
+      phy: HT
+    - manufacturer: NETSCOUT
+      max_tx: -1
+      name: 802.11ac USB
+      nss: 3
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: 16
+      name: S
+      nss: 1
+      phy: HT
+    - manufacturer: Nexus
+      max_tx: -1
+      name: "5"
+      nss: 1
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: 24
+      name: 5X
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: 17
+      name: "6"
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: -1
+      name: 6P
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: -1
+      name: 6P
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: 16
+      name: "9"
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: 18
+      name: "9"
+      nss: 2
+      phy: VHT
+    - manufacturer: Nexus
+      max_tx: -1
+      name: Player
+      nss: 2
+      phy: VHT
+    - manufacturer: Nintendo
+      max_tx: -1
+      name: Switch
+      nss: 2
+      phy: VHT
+    - manufacturer: Nokia
+      max_tx: -1
+      name: Lumia 735
+      nss: 1
+      phy: HT
+    - manufacturer: Nokia
+      max_tx: -1
+      name: "6.1"
+      nss: 1
+      phy: HT
+    - manufacturer: Nokia
+      max_tx: 22
+      name: 8 TA-1004
+      nss: 2
+      phy: VHT
+    - manufacturer: Nvidia
+      max_tx: -1
+      name: Shield Tablet
+      nss: 2
+      phy: HT
+    - manufacturer: One
+      max_tx: 30
+      name: Plus One
+      nss: 1
+      phy: VHT
+    - manufacturer: One
+      max_tx: 17
+      name: Plus One
+      nss: 1
+      phy: VHT
+    - manufacturer: One
+      max_tx: 27
+      name: Plus Two
+      nss: 1
+      phy: VHT
+    - manufacturer: One
+      max_tx: 24
+      name: Plus Two
+      nss: 1
+      phy: VHT
+    - manufacturer: One
+      max_tx: 23
+      name: Plus Three
+      nss: 1
+      phy: VHT
+    - manufacturer: One
+      max_tx: 22
+      name: Plus Five
+      nss: 2
+      phy: VHT
+    - manufacturer: One
+      max_tx: -1
+      name: Plus 5T
+      nss: 2
+      phy: VHT
+    - manufacturer: One
+      max_tx: 17
+      name: Plus Six
+      nss: 2
+      phy: VHT
+    - manufacturer: One
+      max_tx: 30
+      name: Plus 7
+      nss: 2
+      phy: VHT
+    - manufacturer: One
+      max_tx: 24
+      name: Plus 7T
+      nss: 2
+      phy: VHT
+    - manufacturer: One
+      max_tx: 30
+      name: Plus 8
+      nss: 2
+      phy: VHT
+    - manufacturer: OnePlus
+      max_tx: 17
+      name: 8 Pro
+      nss: 2
+      phy: HE
+    - manufacturer: Oukitel
+      max_tx: 20
+      name: K10000 Pro
+      nss: 1
+      phy: HT
+    - manufacturer: Proxim
+      max_tx: 17
+      name: WD8494
+      nss: 2
+      phy: HT
+    - manufacturer: Point
+      max_tx: 20
+      name: Mobile PM45
+      nss: 1
+      phy: VHT
+    - manufacturer: Raspberry
+      max_tx: -1
+      name: Pi3
+      nss: 1
+      phy: VHT
+    - manufacturer: Roku
+      max_tx: 21
+      name: 4660x
+      nss: 2
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: 20
+      name: Galaxy A5
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: Galaxy A6
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: 17
+      name: Galaxy Avant
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: GalaxyTab S
+      nss: 2
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: 19
+      name: Tab4-SM-T230NU
+      nss: 1
+      phy: HT
+    - manufacturer: Samsyng
+      max_tx: 14
+      name: Galaxy S2
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: Galaxy S4
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: Galaxy S4
+      nss: 1
+      phy: HT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: S5 Active
+      nss: 2
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: Galaxy S6
+      nss: 2
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: 19
+      name: Galaxy S8
+      nss: 2
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: 17
+      name: Galaxy S9
+      nss: 2
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: 19
+      name: Galaxy S10
+      nss: 2
+      phy: HE
+    - manufacturer: Samsung
+      max_tx: 19
+      name: Galaxy S10e
+      nss: 2
+      phy: HE
+    - manufacturer: Samsung
+      max_tx: 18
+      name: Galaxy S10+
+      nss: 2
+      phy: HE
+    - manufacturer: Samsung
+      max_tx: 17
+      name: Galaxy A50
+      nss: 1
+      phy: VHT
+    - manufacturer: Samsung
+      max_tx: -1
+      name: J5
+      nss: 1
+      phy: HT
+    - manufacturer: Smixin
+      max_tx: -1
+      name: Compact soap
+      nss: 1
+      phy: HT
+    - manufacturer: Sony
+      max_tx: 15
+      name: z4
+      nss: 2
+      phy: HT
+    - manufacturer: Sony
+      max_tx: 5
+      name: Bravia KDL
+      nss: 2
+      phy: HT
+    - manufacturer: Sony
+      max_tx: 20
+      name: Playstation 5
+      nss: 2
+      phy: HE
+    - manufacturer: Sony
+      max_tx: 30
+      name: Xperia Z1
+      nss: 1
+      phy: HT
+    - manufacturer: Sony
+      max_tx: 18
+      name: Xperia Z2
+      nss: 1
+      phy: VHT
+    - manufacturer: Tesla
+      max_tx: 16
+      name: Model 3
+      nss: 2
+      phy: VHT
+    - manufacturer: Tesla
+      max_tx: 16
+      name: Model S
+      nss: 2
+      phy: VHT
+    - manufacturer: Toshiba
+      max_tx: 22
+      name: Chromebook CB30-B-104
+      nss: 2
+      phy: VHT
+    - manufacturer: TP-Link
+      max_tx: -1
+      name: USB T9UH
+      nss: 3
+      phy: VHT
+    - manufacturer: Vizio
+      max_tx: 17
+      name: Android Remote
+      nss: 1
+      phy: HT
+    - manufacturer: XBOX
+      max_tx: 18
+      name: One
+      nss: 2
+      phy: HT
+    - manufacturer: Xbox
+      max_tx: -1
+      name: One S
+      nss: 2
+      phy: VHT
+    - manufacturer: Xiaomi
+      max_tx: 30
+      name: "- RedmiNote4"
+      nss: 1
+      phy: HT
+    - manufacturer: Xiaomi
+      max_tx: 20
+      name: Mi A1
+      nss: 1
+      phy: VHT
+    - manufacturer: Xiaomi
+      max_tx: -1
+      name: Mia2 Lite
+      nss: 1
+      phy: HT
+    - manufacturer: Xiaomi
+      max_tx: 30
+      name: Mi4
+      nss: 1
+      phy: VHT
+    - manufacturer: Xiaomi
+      max_tx: 14
+      name: Pocophone F1
+      nss: 2
+      phy: VHT
+    - manufacturer: Xiaomi
+      max_tx: 22
+      name: RedmiNote5
+      nss: 1
+      phy: VHT
+    - manufacturer: Zebra
+      max_tx: 19
+      name: MC40
+      nss: 1
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: 17
+      name: TC70x
+      nss: 2
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: 17
+      name: TC8000
+      nss: 1
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: 20
+      name: QLn420
+      nss: 1
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: 25
+      name: Motorola MC32N0
+      nss: 1
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: -1
+      name: Motorola VH10
+      nss: 1
+      phy: HT
+    - manufacturer: Zebra
+      max_tx: 22
+      name: MC930P
+      nss: 2
+      phy: VHT
+    - manufacturer: Zebra
+      max_tx: 17
+      name: MC3300K
+      nss: 2
+      phy: VHT
+    - manufacturer: Zebra
+      max_tx: 17
+      name: WT6000
+      nss: 2
+      phy: VHT
+    - manufacturer: ZTE
+      max_tx: 23
+      name: Axon 7
+      nss: 2
+      phy: VHT
+    - manufacturer: ZTE
+      max_tx: 24
+      name: Axon Pro
+      nss: 1
+      phy: VHT
 wifi_phys:
-  - name: HT
-    description: 802.11n - Wi-Fi 4
-    mcs_index:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
-      - 18
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 30
-      - 31
-    max_nss: 4
-    ofdm: true
-    ofdm_channel_width:
-      - 20
-      - 40
-    ofdma: false
-  - name: VHT
-    description: 802.11ac - Wi-Fi 5
-    mcs_index:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-    max_nss: 8
-    ofdm: true
-    ofdm_channel_width:
-      - 20
-      - 40
-      - 80
-      - 160
-    ofdma: false
-  - name: HE
-    description: 802.11ax - Wi-Fi 6/6e
-    mcs_index:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
-      - 11
-    max_nss: 8
-    ofdm: false
-    ofdma: true
-    ofdma_channel_width:
-      - 2
-      - 4
-      - 8
-      - 20
-      - 40
-      - 80
-      - 160
-  - name: EHT
-    description: 802.11be - Wi-Fi 7
-    mcs_index:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
-      - 11
-      - 12
-      - 13
-    max_nss: 16
-    ofdm: false
-    ofdma: true
-    ofdma_channel_width:
-      - 2
-      - 4
-      - 8
-      - 20
-      - 40
-      - 80
-      - 160
-      - 320
+    - name: HT
+      description: 802.11n - Wi-Fi 4
+      mcs_index:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+          - 14
+          - 15
+          - 16
+          - 17
+          - 18
+          - 19
+          - 20
+          - 21
+          - 22
+          - 23
+          - 24
+          - 25
+          - 26
+          - 27
+          - 28
+          - 29
+          - 30
+          - 31
+      max_nss: 4
+      ofdm: true
+      ofdm_channel_width:
+          - 20
+          - 40
+      ofdma: false
+    - name: VHT
+      description: 802.11ac - Wi-Fi 5
+      mcs_index:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 9
+      max_nss: 8
+      ofdm: true
+      ofdm_channel_width:
+          - 20
+          - 40
+          - 80
+          - 160
+      ofdma: false
+    - name: HE
+      description: 802.11ax - Wi-Fi 6/6e
+      mcs_index:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+      max_nss: 8
+      ofdm: false
+      ofdma: true
+      ofdma_channel_width:
+          - 2
+          - 4
+          - 8
+          - 20
+          - 40
+          - 80
+          - 160
+    - name: EHT
+      description: 802.11be - Wi-Fi 7
+      mcs_index:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+      max_nss: 16
+      ofdm: false
+      ofdma: true
+      ofdma_channel_width:
+          - 2
+          - 4
+          - 8
+          - 20
+          - 40
+          - 80
+          - 160
+          - 320
 ofdm_data:
-  nsds:
-    - channel_width: 20
-      nsd: 52
-    - channel_width: 40
-      nsd: 108
-    - channel_width: 80
-      nsd: 234
-    - channel_width: 160
-      nsd: 468
-  tdft: 3.2
-  tgi:
-    - 0.4
-    - 0.8
+    nsds:
+        - channel_width: 20
+          nsd: 52
+        - channel_width: 40
+          nsd: 108
+        - channel_width: 80
+          nsd: 234
+        - channel_width: 160
+          nsd: 468
+    tdft: 3.2
+    tgi:
+        - 0.4
+        - 0.8
 ofdma_data:
-  nsdus:
-    - channel_width: 2
-      nsdu: 24
-    - channel_width: 4
-      nsdu: 48
-    - channel_width: 8
-      nsdu: 102
-    - channel_width: 20
-      nsdu: 234
-    - channel_width: 40
-      nsdu: 468
-    - channel_width: 80
-      nsdu: 980
-    - channel_width: 160
-      nsdu: 1960
-    - channel_width: 320
-      nsdu: 3920
-  tdft: 12.8
-  tgi:
-    - 0.8
-    - 1.2
-    - 3.2
+    nsdus:
+        - channel_width: 2
+          nsdu: 24
+        - channel_width: 4
+          nsdu: 48
+        - channel_width: 8
+          nsdu: 102
+        - channel_width: 20
+          nsdu: 234
+        - channel_width: 40
+          nsdu: 468
+        - channel_width: 80
+          nsdu: 980
+        - channel_width: 160
+          nsdu: 1960
+        - channel_width: 320
+          nsdu: 3920
+    tdft: 12.8
+    tgi:
+        - 0.8
+        - 1.2
+        - 3.2
 mcs_index_ht:
-  - index: 0
-    nss: 1
-    modulation: BPSK
-    coding: 1/2
-  - index: 1
-    nss: 1
-    modulation: QPSK
-    coding: 1/2
-  - index: 2
-    nss: 1
-    modulation: QPSK
-    coding: 3/4
-  - index: 3
-    nss: 1
-    modulation: 16-QAM
-    coding: 1/2
-  - index: 4
-    nss: 1
-    modulation: 16-QAM
-    coding: 3/4
-  - index: 5
-    nss: 1
-    modulation: 64-QAM
-    coding: 2/3
-  - index: 6
-    nss: 1
-    modulation: 64-QAM
-    coding: 3/4
-  - index: 7
-    nss: 1
-    modulation: 64-QAM
-    coding: 5/6
-  - index: 8
-    nss: 2
-    modulation: BPSK
-    coding: 1/2
-  - index: 9
-    nss: 2
-    modulation: QPSK
-    coding: 1/2
-  - index: 10
-    nss: 2
-    modulation: QPSK
-    coding: 3/4
-  - index: 11
-    nss: 2
-    modulation: 16-QAM
-    coding: 1/2
-  - index: 12
-    nss: 2
-    modulation: 16-QAM
-    coding: 3/4
-  - index: 13
-    nss: 2
-    modulation: 64-QAM
-    coding: 2/3
-  - index: 14
-    nss: 1
-    modulation: 64-QAM
-    coding: 3/4
-  - index: 15
-    nss: 2
-    modulation: 64-QAM
-    coding: 5/6
-  - index: 16
-    nss: 3
-    modulation: BPSK
-    coding: 1/2
-  - index: 17
-    nss: 3
-    modulation: QPSK
-    coding: 1/2
-  - index: 18
-    nss: 3
-    modulation: QPSK
-    coding: 3/4
-  - index: 19
-    nss: 3
-    modulation: 16-QAM
-    coding: 1/2
-  - index: 20
-    nss: 3
-    modulation: 16-QAM
-    coding: 3/4
-  - index: 21
-    nss: 3
-    modulation: 64-QAM
-    coding: 2/3
-  - index: 22
-    nss: 3
-    modulation: 64-QAM
-    coding: 3/4
-  - index: 23
-    nss: 3
-    modulation: 64-QAM
-    coding: 5/6
-  - index: 24
-    nss: 4
-    modulation: BPSK
-    coding: 1/2
-  - index: 25
-    nss: 4
-    modulation: QPSK
-    coding: 1/2
-  - index: 26
-    nss: 4
-    modulation: QPSK
-    coding: 3/4
-  - index: 27
-    nss: 4
-    modulation: 16-QAM
-    coding: 1/2
-  - index: 28
-    nss: 4
-    modulation: 16-QAM
-    coding: 3/4
-  - index: 29
-    nss: 4
-    modulation: 64-QAM
-    coding: 2/3
-  - index: 30
-    nss: 4
-    modulation: 64-QAM
-    coding: 3/4
-  - index: 31
-    nss: 4
-    modulation: 64-QAM
-    coding: 5/6
+    - index: 0
+      nss: 1
+      modulation: BPSK
+      coding: 1/2
+    - index: 1
+      nss: 1
+      modulation: QPSK
+      coding: 1/2
+    - index: 2
+      nss: 1
+      modulation: QPSK
+      coding: 3/4
+    - index: 3
+      nss: 1
+      modulation: 16-QAM
+      coding: 1/2
+    - index: 4
+      nss: 1
+      modulation: 16-QAM
+      coding: 3/4
+    - index: 5
+      nss: 1
+      modulation: 64-QAM
+      coding: 2/3
+    - index: 6
+      nss: 1
+      modulation: 64-QAM
+      coding: 3/4
+    - index: 7
+      nss: 1
+      modulation: 64-QAM
+      coding: 5/6
+    - index: 8
+      nss: 2
+      modulation: BPSK
+      coding: 1/2
+    - index: 9
+      nss: 2
+      modulation: QPSK
+      coding: 1/2
+    - index: 10
+      nss: 2
+      modulation: QPSK
+      coding: 3/4
+    - index: 11
+      nss: 2
+      modulation: 16-QAM
+      coding: 1/2
+    - index: 12
+      nss: 2
+      modulation: 16-QAM
+      coding: 3/4
+    - index: 13
+      nss: 2
+      modulation: 64-QAM
+      coding: 2/3
+    - index: 14
+      nss: 1
+      modulation: 64-QAM
+      coding: 3/4
+    - index: 15
+      nss: 2
+      modulation: 64-QAM
+      coding: 5/6
+    - index: 16
+      nss: 3
+      modulation: BPSK
+      coding: 1/2
+    - index: 17
+      nss: 3
+      modulation: QPSK
+      coding: 1/2
+    - index: 18
+      nss: 3
+      modulation: QPSK
+      coding: 3/4
+    - index: 19
+      nss: 3
+      modulation: 16-QAM
+      coding: 1/2
+    - index: 20
+      nss: 3
+      modulation: 16-QAM
+      coding: 3/4
+    - index: 21
+      nss: 3
+      modulation: 64-QAM
+      coding: 2/3
+    - index: 22
+      nss: 3
+      modulation: 64-QAM
+      coding: 3/4
+    - index: 23
+      nss: 3
+      modulation: 64-QAM
+      coding: 5/6
+    - index: 24
+      nss: 4
+      modulation: BPSK
+      coding: 1/2
+    - index: 25
+      nss: 4
+      modulation: QPSK
+      coding: 1/2
+    - index: 26
+      nss: 4
+      modulation: QPSK
+      coding: 3/4
+    - index: 27
+      nss: 4
+      modulation: 16-QAM
+      coding: 1/2
+    - index: 28
+      nss: 4
+      modulation: 16-QAM
+      coding: 3/4
+    - index: 29
+      nss: 4
+      modulation: 64-QAM
+      coding: 2/3
+    - index: 30
+      nss: 4
+      modulation: 64-QAM
+      coding: 3/4
+    - index: 31
+      nss: 4
+      modulation: 64-QAM
+      coding: 5/6
 mcs_index:
-  - index: 0
-    modulation: BPSK
-    coding: 1/2
-  - index: 1
-    modulation: QPSK
-    coding: 1/2
-  - index: 2
-    modulation: QPSK
-    coding: 3/4
-  - index: 3
-    modulation: 16-QAM
-    coding: 1/2
-  - index: 4
-    modulation: 16-QAM
-    coding: 3/4
-  - index: 5
-    modulation: 64-QAM
-    coding: 2/3
-  - index: 6
-    modulation: 64-QAM
-    coding: 3/4
-  - index: 7
-    modulation: 64-QAM
-    coding: 5/6
-  - index: 8
-    modulation: 256-QAM
-    coding: 3/4
-  - index: 9
-    modulation: 256-QAM
-    coding: 5/6
-  - index: 10
-    modulation: 1024-QAM
-    coding: 3/4
-  - index: 11
-    modulation: 1024-QAM
-    coding: 5/6
-  - index: 12
-    modulation: 4096-QAM
-    coding: 3/4
-  - index: 13
-    modulation: 4096-QAM
-    coding: 5/6
+    - index: 0
+      modulation: BPSK
+      coding: 1/2
+    - index: 1
+      modulation: QPSK
+      coding: 1/2
+    - index: 2
+      modulation: QPSK
+      coding: 3/4
+    - index: 3
+      modulation: 16-QAM
+      coding: 1/2
+    - index: 4
+      modulation: 16-QAM
+      coding: 3/4
+    - index: 5
+      modulation: 64-QAM
+      coding: 2/3
+    - index: 6
+      modulation: 64-QAM
+      coding: 3/4
+    - index: 7
+      modulation: 64-QAM
+      coding: 5/6
+    - index: 8
+      modulation: 256-QAM
+      coding: 3/4
+    - index: 9
+      modulation: 256-QAM
+      coding: 5/6
+    - index: 10
+      modulation: 1024-QAM
+      coding: 3/4
+    - index: 11
+      modulation: 1024-QAM
+      coding: 5/6
+    - index: 12
+      modulation: 4096-QAM
+      coding: 3/4
+    - index: 13
+      modulation: 4096-QAM
+      coding: 5/6
 modulations:
-  - name: BPSK
-    nbpscs: 1
-  - name: QPSK
-    nbpscs: 2
-  - name: 16-QAM
-    nbpscs: 4
-  - name: 64-QAM
-    nbpscs: 6
-  - name: 256-QAM
-    nbpscs: 8
-  - name: 1024-QAM
-    nbpscs: 10
-  - name: 4096-QAM
-    nbpscs: 12
+    - name: BPSK
+      nbpscs: 1
+    - name: QPSK
+      nbpscs: 2
+    - name: 16-QAM
+      nbpscs: 4
+    - name: 64-QAM
+      nbpscs: 6
+    - name: 256-QAM
+      nbpscs: 8
+    - name: 1024-QAM
+      nbpscs: 10
+    - name: 4096-QAM
+      nbpscs: 12
